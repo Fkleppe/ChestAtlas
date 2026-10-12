@@ -1,5 +1,17 @@
 # Chest Atlas 0.6.0
 
+## Install on another PC
+
+1. Close WoW.
+2. In `World of Warcraft\_classic_beta_\Interface\AddOns\`, run
+   `git clone https://github.com/Fkleppe/ChestAtlas.git`
+   (or download the ZIP from GitHub and unpack it there as a folder named `ChestAtlas`).
+3. Start WoW. Update later with `git pull` inside the `ChestAtlas` folder, then restart WoW.
+
+Your journal (looted chests, discoveries, dungeon log) is not part of the addon folder. It lives in
+`WTF\Account\<ACCOUNT>\SavedVariables\ChestAtlas.lua`. Move it with `/ca backup` on one PC and
+`/ca import` on the other, or copy that file while WoW is closed.
+
 ## Dungeon and raid chests (0.6.0)
 
 `/ca dungeons` (or **Dungeon chests** in the Atlas, **Dungeons** on the map toolbar)
