@@ -1,0 +1,4855 @@
+{
+ "build": "1.60.1.70338",
+ "instances": {
+  "13": "Test Dungeon",
+  "29": "CashTest",
+  "33": "Shadowfang Keep",
+  "34": "Stormwind Stockade",
+  "36": "Deadmines",
+  "43": "Wailing Caverns",
+  "44": "<unused> Monastery",
+  "47": "Razorfen Kraul",
+  "48": "Blackfathom Deeps",
+  "70": "Uldaman",
+  "90": "Gnomeregan",
+  "109": "Sunken Temple",
+  "129": "Razorfen Downs",
+  "169": "Emerald Dream",
+  "189": "Scarlet Monastery",
+  "209": "Zul'Farrak",
+  "229": "Blackrock Spire",
+  "230": "Blackrock Depths",
+  "249": "Onyxia's Lair",
+  "269": "Caverns of Time",
+  "289": "Scholomance",
+  "309": "Zul'Gurub",
+  "329": "Stratholme",
+  "349": "Maraudon",
+  "389": "Ragefire Chasm",
+  "409": "Molten Core",
+  "429": "Dire Maul",
+  "469": "Blackwing Lair",
+  "509": "Ruins of Ahn'Qiraj",
+  "531": "Ahn'Qiraj Temple",
+  "533": "Naxxramas",
+  "2720": "The Searing Basin",
+  "2784": "Demon Fall Canyon",
+  "2789": "The Tainted Scar",
+  "2791": "Storm Cliffs",
+  "2804": "The Crystal Vale",
+  "2806": "Shadow Hold",
+  "2807": "Burning of Andorhal",
+  "2817": "Starfall Barrow Den",
+  "2832": "Nightmare Grove",
+  "2853": "Deadwind Pass",
+  "2856": "Scarlet Enclave",
+  "2875": "Karazhan Crypts",
+  "2902": "The Scarab Dais",
+  "2921": "Naxxramas",
+  "2959": "City of Dalaran",
+  "2998": "Excavation Site: Wetlands",
+  "2999": "Ruins of Lordaeron",
+  "3065": "The Hall of Thanes",
+  "3109": "Manor Mistmantle"
+ },
+ "lockTypes": {
+  "1": "Pick Lock",
+  "2": "Herbalism",
+  "3": "Mining",
+  "4": "Disarm Trap",
+  "5": "Open",
+  "6": "Treasure (DND)",
+  "7": "Calcified Elven Gems (DND)",
+  "8": "Close",
+  "9": "Arm Trap",
+  "10": "Quick Open",
+  "11": "Quick Close",
+  "12": "Open Tinkering",
+  "13": "Open Kneeling",
+  "14": "Open Attacking",
+  "15": "Gahz'ridian (DND)",
+  "16": "Blasting",
+  "17": "Slow Open",
+  "18": "Slow Close",
+  "19": "Fishing",
+  "24": "Beast Tracking",
+  "209": "Open Tinkering",
+  "211": "Kobold Tracks",
+  "245": "Comprehend Scroll"
+ },
+ "locks": {
+  "2": [
+   {
+    "index": 1,
+    "skill": 25,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4": [
+   {
+    "index": 1,
+    "skill": 50,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "5": [
+   {
+    "index": 1,
+    "skill": 1,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "8": [
+   {
+    "index": 2,
+    "skill": 25,
+    "type": 2
+   }
+  ],
+  "9": [
+   {
+    "index": 2,
+    "skill": 50,
+    "type": 2
+   }
+  ],
+  "10": [
+   {
+    "index": 2,
+    "skill": 75,
+    "type": 2
+   }
+  ],
+  "11": [
+   {
+    "index": 2,
+    "skill": 100,
+    "type": 2
+   }
+  ],
+  "12": [
+   {
+    "index": 4,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "13": [
+   {
+    "index": 4,
+    "skill": 50,
+    "type": 2
+   }
+  ],
+  "14": [],
+  "15": [
+   {
+    "index": 2629,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "17": [
+   {
+    "index": 1,
+    "skill": 75,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "18": [
+   {
+    "index": 3,
+    "skill": 25,
+    "type": 2
+   }
+  ],
+  "19": [
+   {
+    "index": 3,
+    "skill": 50,
+    "type": 2
+   }
+  ],
+  "20": [
+   {
+    "index": 3,
+    "skill": 75,
+    "type": 2
+   }
+  ],
+  "21": [
+   {
+    "index": 3,
+    "skill": 100,
+    "type": 2
+   }
+  ],
+  "22": [
+   {
+    "index": 3,
+    "skill": 125,
+    "type": 2
+   }
+  ],
+  "23": [
+   {
+    "index": 1,
+    "skill": 25,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "24": [
+   {
+    "index": 1,
+    "skill": 70,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "25": [
+   {
+    "index": 3,
+    "skill": 150,
+    "type": 2
+   }
+  ],
+  "26": [
+   {
+    "index": 2,
+    "skill": 125,
+    "type": 2
+   }
+  ],
+  "27": [
+   {
+    "index": 2,
+    "skill": 150,
+    "type": 2
+   }
+  ],
+  "29": [
+   {
+    "index": 2,
+    "skill": 1,
+    "type": 2
+   }
+  ],
+  "30": [
+   {
+    "index": 2,
+    "skill": 15,
+    "type": 2
+   }
+  ],
+  "31": [
+   {
+    "index": 2,
+    "skill": 70,
+    "type": 2
+   }
+  ],
+  "32": [
+   {
+    "index": 2,
+    "skill": 115,
+    "type": 2
+   }
+  ],
+  "33": [
+   {
+    "index": 2,
+    "skill": 120,
+    "type": 2
+   }
+  ],
+  "34": [
+   {
+    "index": 2,
+    "skill": 130,
+    "type": 2
+   }
+  ],
+  "35": [
+   {
+    "index": 2,
+    "skill": 140,
+    "type": 2
+   }
+  ],
+  "36": [
+   {
+    "index": 3467,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 100,
+    "type": 2
+   },
+   {
+    "index": 0,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "37": [
+   {
+    "index": 3499,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 100,
+    "type": 2
+   }
+  ],
+  "38": [
+   {
+    "index": 3,
+    "skill": 1,
+    "type": 2
+   },
+   {
+    "index": 872,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "39": [
+   {
+    "index": 3,
+    "skill": 65,
+    "type": 2
+   },
+   {
+    "index": 872,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "40": [
+   {
+    "index": 3,
+    "skill": 75,
+    "type": 2
+   },
+   {
+    "index": 872,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "41": [
+   {
+    "index": 3,
+    "skill": 125,
+    "type": 2
+   },
+   {
+    "index": 872,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "42": [
+   {
+    "index": 3,
+    "skill": 155,
+    "type": 2
+   }
+  ],
+  "43": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "44": [
+   {
+    "index": 3710,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "45": [
+   {
+    "index": 2,
+    "skill": 125,
+    "type": 2
+   }
+  ],
+  "46": [
+   {
+    "index": 3745,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "47": [
+   {
+    "index": 2,
+    "skill": 160,
+    "type": 2
+   }
+  ],
+  "48": [
+   {
+    "index": 2,
+    "skill": 215,
+    "type": 2
+   }
+  ],
+  "49": [
+   {
+    "index": 2,
+    "skill": 185,
+    "type": 2
+   }
+  ],
+  "50": [
+   {
+    "index": 2,
+    "skill": 205,
+    "type": 2
+   }
+  ],
+  "51": [
+   {
+    "index": 2,
+    "skill": 195,
+    "type": 2
+   }
+  ],
+  "52": [
+   {
+    "index": 3745,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 175,
+    "type": 2
+   }
+  ],
+  "53": [
+   {
+    "index": 3930,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "54": [
+   {
+    "index": 4027,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "55": [
+   {
+    "index": 4,
+    "skill": 200,
+    "type": 2
+   }
+  ],
+  "56": [
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 7,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "57": [
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "58": [
+   {
+    "index": 4529,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "59": [],
+  "60": [
+   {
+    "index": 1,
+    "skill": 125,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "61": [
+   {
+    "index": 1,
+    "skill": 175,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "62": [
+   {
+    "index": 1,
+    "skill": 225,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "63": [
+   {
+    "index": 4639,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "65": [
+   {
+    "index": 4750,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "67": [
+   {
+    "index": 4640,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "68": [
+   {
+    "index": 4882,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 100,
+    "type": 2
+   }
+  ],
+  "69": [
+   {
+    "index": 4986,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "70": [
+   {
+    "index": 5020,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "71": [
+   {
+    "index": 5021,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "72": [
+   {
+    "index": 5059,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "73": [
+   {
+    "index": 5068,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "75": [
+   {
+    "index": 5165,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "76": [
+   {
+    "index": 5185,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "77": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "80": [
+   {
+    "index": 5338,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "81": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "82": [
+   {
+    "index": 1,
+    "skill": 50,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "83": [
+   {
+    "index": 5397,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "84": [
+   {
+    "index": 5396,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 225,
+    "type": 2
+   }
+  ],
+  "85": [],
+  "86": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "88": [
+   {
+    "index": 1,
+    "skill": 50,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "89": [
+   {
+    "index": 5475,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "90": [
+   {
+    "index": 5521,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "91": [
+   {
+    "index": 5384,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "92": [
+   {
+    "index": 6893,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 150,
+    "type": 2
+   },
+   {
+    "index": 16,
+    "skill": 150,
+    "type": 2
+   }
+  ],
+  "93": [
+   {
+    "index": 12,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "94": [
+   {
+    "index": 5687,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "95": [],
+  "97": [
+   {
+    "index": 5851,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 160,
+    "type": 2
+   }
+  ],
+  "98": [
+   {
+    "index": 5868,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "99": [
+   {
+    "index": 14,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "119": [
+   {
+    "index": 5916,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "139": [
+   {
+    "index": 5937,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "159": [
+   {
+    "index": 6074,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "179": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "199": [
+   {
+    "index": 6208,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 6207,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "200": [
+   {
+    "index": 6210,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 6209,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "202": [
+   {
+    "index": 1,
+    "skill": 1,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 16,
+    "skill": 50,
+    "type": 2
+   }
+  ],
+  "203": [
+   {
+    "index": 1,
+    "skill": 1,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "239": [
+   {
+    "index": 6783,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "259": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 2,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "279": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "299": [
+   {
+    "index": 7146,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 175,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 16,
+    "skill": 175,
+    "type": 2
+   }
+  ],
+  "319": [
+   {
+    "index": 7208,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 1,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "359": [
+   {
+    "index": 7733,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "379": [
+   {
+    "index": 3,
+    "skill": 175,
+    "type": 2
+   }
+  ],
+  "380": [
+   {
+    "index": 3,
+    "skill": 230,
+    "type": 2
+   }
+  ],
+  "399": [
+   {
+    "index": 3,
+    "skill": 310,
+    "type": 2
+   }
+  ],
+  "400": [
+   {
+    "index": 3,
+    "skill": 245,
+    "type": 2
+   }
+  ],
+  "419": [
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 15,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "420": [
+   {
+    "index": 8444,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "439": [
+   {
+    "index": 2,
+    "skill": 210,
+    "type": 2
+   }
+  ],
+  "440": [
+   {
+    "index": 2,
+    "skill": 220,
+    "type": 2
+   }
+  ],
+  "441": [
+   {
+    "index": 2,
+    "skill": 230,
+    "type": 2
+   }
+  ],
+  "442": [
+   {
+    "index": 2,
+    "skill": 235,
+    "type": 2
+   }
+  ],
+  "443": [
+   {
+    "index": 2,
+    "skill": 245,
+    "type": 2
+   }
+  ],
+  "444": [
+   {
+    "index": 2,
+    "skill": 250,
+    "type": 2
+   }
+  ],
+  "459": [
+   {
+    "index": 9240,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "460": [
+   {
+    "index": 9249,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "479": [
+   {
+    "index": 9299,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "499": [
+   {
+    "index": 9472,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "519": [
+   {
+    "index": 2,
+    "skill": 85,
+    "type": 2
+   }
+  ],
+  "520": [
+   {
+    "index": 10460,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "521": [
+   {
+    "index": 2,
+    "skill": 170,
+    "type": 2
+   }
+  ],
+  "540": [
+   {
+    "index": 10445,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "559": [
+   {
+    "index": 10515,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "579": [
+   {
+    "index": 10757,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "599": [
+   {
+    "index": 1,
+    "skill": 250,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "600": [
+   {
+    "index": 1,
+    "skill": 275,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "601": [
+   {
+    "index": 10757,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "639": [
+   {
+    "index": 11078,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "640": [
+   {
+    "index": 11079,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "659": [
+   {
+    "index": 11197,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "679": [
+   {
+    "index": 11115,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "680": [
+   {
+    "index": 11000,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 250,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 16,
+    "skill": 250,
+    "type": 2
+   }
+  ],
+  "699": [
+   {
+    "index": 11140,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 250,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 16,
+    "skill": 250,
+    "type": 2
+   }
+  ],
+  "719": [
+   {
+    "index": 3,
+    "skill": 230,
+    "type": 2
+   }
+  ],
+  "739": [
+   {
+    "index": 11602,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "740": [
+   {
+    "index": 0,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "759": [
+   {
+    "index": 11000,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "779": [
+   {
+    "index": 11833,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "799": [
+   {
+    "index": 11885,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "820": [
+   {
+    "index": 12344,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "821": [
+   {
+    "index": 12144,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 12286,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "839": [
+   {
+    "index": 12186,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "859": [
+   {
+    "index": 12301,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "879": [
+   {
+    "index": 12382,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 300,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 16,
+    "skill": 300,
+    "type": 2
+   }
+  ],
+  "899": [],
+  "920": [],
+  "939": [
+   {
+    "index": 3,
+    "skill": 275,
+    "type": 2
+   }
+  ],
+  "959": [
+   {
+    "index": 12785,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "960": [
+   {
+    "index": 12814,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "979": [
+   {
+    "index": 12891,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "999": [
+   {
+    "index": 12906,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1019": [
+   {
+    "index": 12942,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1039": [
+   {
+    "index": 12973,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1059": [],
+  "1079": [
+   {
+    "index": 13302,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1080": [
+   {
+    "index": 13303,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1081": [
+   {
+    "index": 13304,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 0,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1082": [
+   {
+    "index": 13305,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1083": [
+   {
+    "index": 13306,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1084": [
+   {
+    "index": 13307,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1085": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1099": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 0,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1119": [
+   {
+    "index": 2,
+    "skill": 260,
+    "type": 2
+   }
+  ],
+  "1120": [
+   {
+    "index": 2,
+    "skill": 270,
+    "type": 2
+   }
+  ],
+  "1121": [
+   {
+    "index": 2,
+    "skill": 280,
+    "type": 2
+   }
+  ],
+  "1122": [
+   {
+    "index": 2,
+    "skill": 285,
+    "type": 2
+   }
+  ],
+  "1123": [
+   {
+    "index": 2,
+    "skill": 290,
+    "type": 2
+   }
+  ],
+  "1124": [
+   {
+    "index": 2,
+    "skill": 300,
+    "type": 2
+   }
+  ],
+  "1159": [
+   {
+    "index": 13704,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 280,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 16,
+    "skill": 300,
+    "type": 2
+   }
+  ],
+  "1179": [
+   {
+    "index": 13523,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1199": [
+   {
+    "index": 13873,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1219": [
+   {
+    "index": 14523,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1239": [
+   {
+    "index": 14547,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1259": [
+   {
+    "index": 15042,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1299": [
+   {
+    "index": 15766,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1319": [
+   {
+    "index": 12,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1340": [
+   {
+    "index": 16208,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1359": [
+   {
+    "index": 16308,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1379": [
+   {
+    "index": 16333,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1399": [
+   {
+    "index": 16603,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1419": [
+   {
+    "index": 17242,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1439": [
+   {
+    "index": 17262,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1459": [
+   {
+    "index": 17333,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 22754,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1479": [
+   {
+    "index": 17,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1499": [
+   {
+    "index": 17696,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1539": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1559": [
+   {
+    "index": 1,
+    "skill": 110,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1560": [
+   {
+    "index": 1,
+    "skill": 150,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1561": [
+   {
+    "index": 1,
+    "skill": 200,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1562": [
+   {
+    "index": 18249,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 300,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 16,
+    "skill": 300,
+    "type": 2
+   }
+  ],
+  "1563": [
+   {
+    "index": 18266,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1564": [
+   {
+    "index": 18268,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 200,
+    "type": 2
+   },
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 11,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 16,
+    "skill": 200,
+    "type": 2
+   },
+   {
+    "index": 245675,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1580": [
+   {
+    "index": 18629,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1599": [
+   {
+    "index": 17,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1619": [
+   {
+    "index": 19931,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1620": [
+   {
+    "index": 1,
+    "skill": 5000,
+    "type": 2
+   }
+  ],
+  "1621": [
+   {
+    "index": 19,
+    "skill": 25,
+    "type": 2
+   }
+  ],
+  "1622": [
+   {
+    "index": 21172,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1623": [
+   {
+    "index": 21174,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1624": [
+   {
+    "index": 19,
+    "skill": 50,
+    "type": 2
+   }
+  ],
+  "1625": [
+   {
+    "index": 19,
+    "skill": 100,
+    "type": 2
+   }
+  ],
+  "1626": [
+   {
+    "index": 19,
+    "skill": 175,
+    "type": 2
+   }
+  ],
+  "1627": [
+   {
+    "index": 19,
+    "skill": 250,
+    "type": 2
+   }
+  ],
+  "1628": [
+   {
+    "index": 19,
+    "skill": 375,
+    "type": 2
+   }
+  ],
+  "1629": [
+   {
+    "index": 21761,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1630": [
+   {
+    "index": 21762,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1632": [
+   {
+    "index": 3,
+    "skill": 305,
+    "type": 2
+   }
+  ],
+  "1634": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1635": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "1636": [
+   {
+    "index": 22486,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "1647": [
+   {
+    "index": 23055,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 237773,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3628": [
+   {
+    "index": 206966,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3629": [
+   {
+    "index": 206975,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 25,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3635": [
+   {
+    "index": 208005,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 25,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3636": [
+   {
+    "index": 208007,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 25,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3651": [
+   {
+    "index": 208682,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3652": [
+   {
+    "index": 208739,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3653": [
+   {
+    "index": 208743,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3654": [
+   {
+    "index": 208749,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 25,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3655": [
+   {
+    "index": 208768,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3657": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 24,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3660": [
+   {
+    "index": 209030,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3661": [
+   {
+    "index": 209045,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3664": [
+   {
+    "index": 209059,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3666": [
+   {
+    "index": 209608,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3670": [
+   {
+    "index": 2589,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3671": [
+   {
+    "index": 210209,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3672": [
+   {
+    "index": 210323,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3673": [
+   {
+    "index": 210568,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3679": [
+   {
+    "index": 210968,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3680": [
+   {
+    "index": 210963,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3686": [
+   {
+    "index": 211273,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3688": [
+   {
+    "index": 211471,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 70,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3689": [
+   {
+    "index": 211482,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3690": [
+   {
+    "index": 0,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "3691": [
+   {
+    "index": 430231,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "3726": [
+   {
+    "index": 214435,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3728": [
+   {
+    "index": 1,
+    "skill": 35,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3729": [
+   {
+    "index": 1,
+    "skill": 45,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3730": [
+   {
+    "index": 1,
+    "skill": 55,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3732": [
+   {
+    "index": 216523,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3733": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3760": [
+   {
+    "index": 217718,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "3798": [
+   {
+    "index": 221497,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3871": [
+   {
+    "index": 227928,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3872": [
+   {
+    "index": 227932,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3873": [
+   {
+    "index": 227930,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3876": [
+   {
+    "index": 227451,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3886": [
+   {
+    "index": 228912,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 175,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 463320,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "3900": [
+   {
+    "index": 229362,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3911": [
+   {
+    "index": 231789,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3966": [
+   {
+    "index": 235518,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3974": [
+   {
+    "index": 235785,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3985": [
+   {
+    "index": 237011,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3988": [
+   {
+    "index": 1221363,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "3995": [
+   {
+    "index": 237196,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 237230,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "3996": [
+   {
+    "index": 238802,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4002": [
+   {
+    "index": 1,
+    "skill": 300,
+    "type": 2
+   }
+  ],
+  "4017": [
+   {
+    "index": 238345,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4024": [
+   {
+    "index": 238501,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4030": [
+   {
+    "index": 239097,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4050": [
+   {
+    "index": 1,
+    "skill": 305,
+    "type": 2
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4054": [
+   {
+    "index": 1231617,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4088": [
+   {
+    "index": 1236393,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4125": [
+   {
+    "index": 246683,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4144": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 211,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4170": [
+   {
+    "index": 3,
+    "skill": 300,
+    "type": 2
+   }
+  ],
+  "4262": [
+   {
+    "index": 1264639,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4263": [
+   {
+    "index": 259357,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4287": [
+   {
+    "index": 1269930,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4295": [
+   {
+    "index": 263992,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 250,
+    "type": 2
+   }
+  ],
+  "4304": [
+   {
+    "index": 1273960,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4325": [],
+  "4326": [
+   {
+    "index": 265821,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4331": [
+   {
+    "index": 266161,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4334": [
+   {
+    "index": 266148,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4335": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4336": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4337": [
+   {
+    "index": 1278934,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4338": [
+   {
+    "index": 267089,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 255,
+    "type": 2
+   }
+  ],
+  "4342": [
+   {
+    "index": 1291140,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4346": [
+   {
+    "index": 268505,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4347": [
+   {
+    "index": 268520,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4348": [
+   {
+    "index": 268582,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4349": [
+   {
+    "index": 268647,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4362": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4363": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4378": [
+   {
+    "index": 269997,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4386": [
+   {
+    "index": 1308379,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4387": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4388": [
+   {
+    "index": 13,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4390": [
+   {
+    "index": 271721,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 1,
+    "skill": 225,
+    "type": 2
+   }
+  ],
+  "4395": [
+   {
+    "index": 1309310,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4398": [
+   {
+    "index": 10,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4436": [
+   {
+    "index": 245,
+    "skill": 1,
+    "type": 2
+   }
+  ],
+  "4465": [],
+  "4467": [
+   {
+    "index": 277136,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4468": [
+   {
+    "index": 277507,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4491": [
+   {
+    "index": 276561,
+    "skill": 0,
+    "type": 1
+   }
+  ],
+  "4492": [
+   {
+    "index": 1308379,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4494": [
+   {
+    "index": 1309978,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4502": [
+   {
+    "index": 1310156,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4506": [
+   {
+    "index": 1310491,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4516": [
+   {
+    "index": 221324,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4522": [
+   {
+    "index": 1312650,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4524": [
+   {
+    "index": 8386,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4565": [
+   {
+    "index": 0,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4566": [
+   {
+    "index": 1320971,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4572": [
+   {
+    "index": 281350,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4574": [
+   {
+    "index": 1322629,
+    "skill": 0,
+    "type": 3
+   }
+  ],
+  "4579": [
+   {
+    "index": 281359,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4580": [
+   {
+    "index": 281358,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ],
+  "4581": [
+   {
+    "index": 284092,
+    "skill": 0,
+    "type": 1
+   },
+   {
+    "index": 5,
+    "skill": 0,
+    "type": 2
+   },
+   {
+    "index": 6,
+    "skill": 0,
+    "type": 2
+   }
+  ]
+ },
+ "openers": {
+  "0": [
+   {
+    "items": [
+     [
+      3710,
+      "Rod of Helcular"
+     ]
+    ],
+    "name": "Charging",
+    "skill": 0,
+    "spell": 1538
+   },
+   {
+    "items": [
+     [
+      2363,
+      "Deprecated Skeleton Key"
+     ],
+     [
+      3467,
+      "Dull Iron Key"
+     ],
+     [
+      3499,
+      "Burnished Gold Key"
+     ],
+     [
+      5521,
+      "Velinde's Key"
+     ],
+     [
+      6207,
+      "PVP - Horde Tower Plans"
+     ],
+     [
+      6208,
+      "PVP - Alliance Tower Plans"
+     ],
+     [
+      6209,
+      "PVP - Horde Mine Deed"
+     ],
+     [
+      6210,
+      "PVP - Alliance Mine Deed"
+     ],
+     [
+      6893,
+      "Workshop Key"
+     ],
+     [
+      7146,
+      "The Scarlet Key"
+     ],
+     [
+      11000,
+      "Shadowforge Key"
+     ],
+     [
+      11140,
+      "Prison Cell Key"
+     ],
+     [
+      11885,
+      "Shadowforge Torch"
+     ],
+     [
+      12143,
+      "Dragonspine Key"
+     ],
+     [
+      12186,
+      "Drakefire Amulet (OLD) (UNUSED)"
+     ],
+     [
+      12301,
+      "Bamboo Cage Key"
+     ],
+     [
+      12382,
+      "Key to the City"
+     ],
+     [
+      13523,
+      "Blood of Innocents"
+     ],
+     [
+      13704,
+      "Skeleton Key"
+     ],
+     [
+      13873,
+      "Viewing Room Key"
+     ],
+     [
+      18249,
+      "Crescent Key"
+     ],
+     [
+      18266,
+      "Gordok Courtyard Key"
+     ],
+     [
+      18268,
+      "Gordok Inner Door Key"
+     ],
+     [
+      206975,
+      "Artifact Storage Key"
+     ],
+     [
+      208005,
+      "Agamand Relic Coffer Key"
+     ],
+     [
+      208007,
+      "Shipwreck Cache Key"
+     ],
+     [
+      208749,
+      "Gnarlpine Stash Key"
+     ],
+     [
+      209030,
+      "Equipment Stash Key"
+     ],
+     [
+      210209,
+      "Twin Key"
+     ],
+     [
+      210323,
+      "Safe Combination"
+     ],
+     [
+      210963,
+      "Scryer's Key"
+     ],
+     [
+      210968,
+      "Reliquary Key"
+     ],
+     [
+      211471,
+      "Cliffspring Key"
+     ],
+     [
+      211482,
+      "Shatterspear Offering"
+     ],
+     [
+      212347,
+      ""
+     ],
+     [
+      217718,
+      "Emblem of Blood Magic"
+     ],
+     [
+      221324,
+      "Brittle Key"
+     ],
+     [
+      227928,
+      "Toolbox Key"
+     ],
+     [
+      227930,
+      "Safe Box Key"
+     ],
+     [
+      229362,
+      "Storehouse Key"
+     ],
+     [
+      237011,
+      "Portcullis Key"
+     ],
+     [
+      238345,
+      "Lady Sesspira's Key"
+     ],
+     [
+      239097,
+      ""
+     ],
+     [
+      245675,
+      "Gordok Inner Door Key"
+     ],
+     [
+      263992,
+      "Overseer's Keyring"
+     ],
+     [
+      267089,
+      "Krol'dok Compound Key"
+     ],
+     [
+      271721,
+      "Krol'dok Ogre Key"
+     ],
+     [
+      277136,
+      "Brooch of the Wardens"
+     ],
+     [
+      277507,
+      "Dalaran Sewer Key"
+     ],
+     [
+      281350,
+      "Keystone Fragment"
+     ],
+     [
+      281358,
+      "Stone Key"
+     ]
+    ],
+    "name": "Opening",
+    "skill": 0,
+    "spell": 3366
+   },
+   {
+    "items": [
+     [
+      3930,
+      "Maury's Key"
+     ]
+    ],
+    "name": "Unlock Maury's Foot",
+    "skill": 0,
+    "spell": 3670
+   },
+   {
+    "items": [
+     [
+      4529,
+      "Enchanted Agate"
+     ]
+    ],
+    "name": "Activating Defenses",
+    "skill": 0,
+    "spell": 4239
+   },
+   {
+    "items": [
+     [
+      4027,
+      "Catelyn's Blade"
+     ]
+    ],
+    "name": "Focusing",
+    "skill": 0,
+    "spell": 3678
+   },
+   {
+    "items": [
+     [
+      3745,
+      "Rune of Opening"
+     ]
+    ],
+    "name": "Rune of Opening",
+    "skill": 0,
+    "spell": 3407
+   },
+   {
+    "items": [
+     [
+      5020,
+      "Kolkar Booty Key"
+     ]
+    ],
+    "name": "Opening Booty Chest",
+    "skill": 0,
+    "spell": 5107
+   },
+   {
+    "items": [
+     [
+      4986,
+      "Flawed Power Stone"
+     ]
+    ],
+    "name": "Disruption",
+    "skill": 0,
+    "spell": 5099
+   },
+   {
+    "items": [
+     [
+      5021,
+      "Explosive Stick of Gann"
+     ]
+    ],
+    "name": "Detonate",
+    "skill": 0,
+    "spell": 5140
+   },
+   {
+    "items": [
+     [
+      5059,
+      "Digging Claw"
+     ]
+    ],
+    "name": "Harvest Silithid Egg",
+    "skill": 0,
+    "spell": 5166
+   },
+   {
+    "items": [
+     [
+      5165,
+      "Sunscale Feather"
+     ]
+    ],
+    "name": "Raptor Feather",
+    "skill": 0,
+    "spell": 5316
+   },
+   {
+    "items": [
+     [
+      4640,
+      "Sign of the Earth"
+     ]
+    ],
+    "name": "Pillar Delving",
+    "skill": 0,
+    "spell": 4982
+   },
+   {
+    "items": [],
+    "name": "Fill Phial",
+    "skill": 0,
+    "spell": 5512
+   },
+   {
+    "items": [
+     [
+      5068,
+      "Dried Seeds"
+     ]
+    ],
+    "name": "Plant Seeds",
+    "skill": 0,
+    "spell": 5206
+   },
+   {
+    "items": [
+     [
+      5937,
+      "Goblin Camera Key"
+     ]
+    ],
+    "name": "Goblin Camera Connection",
+    "skill": 0,
+    "spell": 7023
+   },
+   {
+    "items": [
+     [
+      5687,
+      "Gatekeeper's Key"
+     ]
+    ],
+    "name": "Opening",
+    "skill": 0,
+    "spell": 6658
+   },
+   {
+    "items": [
+     [
+      5916,
+      "Gnome Camera Key"
+     ]
+    ],
+    "name": "Gnome Camera Connection",
+    "skill": 0,
+    "spell": 6974
+   },
+   {
+    "items": [
+     [
+      5397,
+      "Defias Gunpowder"
+     ]
+    ],
+    "name": "Fire Cannon",
+    "skill": 0,
+    "spell": 6250
+   },
+   {
+    "items": [
+     [
+      5396,
+      "Key to Searing Gorge"
+     ]
+    ],
+    "name": "Opening",
+    "skill": 0,
+    "spell": 6249
+   },
+   {
+    "items": [
+     [
+      5851,
+      "Cozzle's Key"
+     ]
+    ],
+    "name": "Opening",
+    "skill": 0,
+    "spell": 6802
+   },
+   {
+    "items": [
+     [
+      4882,
+      "Benedict's Key"
+     ]
+    ],
+    "name": "Opening Benedict's Chest",
+    "skill": 0,
+    "spell": 6529
+   },
+   {
+    "items": [
+     [
+      5475,
+      "Wooden Key"
+     ]
+    ],
+    "name": "Unlocking",
+    "skill": 0,
+    "spell": 6527
+   },
+   {
+    "items": [
+     [
+      5338,
+      "Ancient Moonstone Seal"
+     ]
+    ],
+    "name": "Incineration",
+    "skill": 0,
+    "spell": 6234
+   },
+   {
+    "items": [
+     [
+      5868,
+      "Filled Etched Phial"
+     ]
+    ],
+    "name": "Dousing",
+    "skill": 0,
+    "spell": 6805
+   },
+   {
+    "items": [
+     [
+      6145,
+      "Clarice's Pendant"
+     ]
+    ],
+    "name": "Placing Pendant",
+    "skill": 0,
+    "spell": 8001
+   },
+   {
+    "items": [
+     [
+      7388,
+      "Skull Key"
+     ]
+    ],
+    "name": "Lift Seal",
+    "skill": 0,
+    "spell": 9172
+   },
+   {
+    "items": [
+     [
+      6074,
+      "War Horn Mouthpiece"
+     ]
+    ],
+    "name": "Blow Maraudine Horn",
+    "skill": 0,
+    "spell": 7285
+   },
+   {
+    "items": [
+     [
+      6783,
+      "Dead-tooth's Key"
+     ]
+    ],
+    "name": "Opening Strongbox",
+    "skill": 0,
+    "spell": 8517
+   },
+   {
+    "items": [
+     [
+      7733,
+      "Staff of Prehistoria"
+     ]
+    ],
+    "name": "Uldaman Key Staff",
+    "skill": 0,
+    "spell": 9577
+   },
+   {
+    "items": [
+     [
+      9239,
+      ""
+     ],
+     [
+      9240,
+      "Mallet of Zul'Farrak"
+     ]
+    ],
+    "name": "Gong Zul'Farrak Gong",
+    "skill": 0,
+    "spell": 11434
+   },
+   {
+    "items": [
+     [
+      9249,
+      "Captain's Key"
+     ]
+    ],
+    "name": "Opening Chest",
+    "skill": 0,
+    "spell": 11437
+   },
+   {
+    "items": [
+     [
+      8444,
+      "Executioner's Key"
+     ]
+    ],
+    "name": "Unlocking",
+    "skill": 0,
+    "spell": 10738
+   },
+   {
+    "items": [
+     [
+      10419,
+      ""
+     ],
+     [
+      10460,
+      "Hakkari Blood"
+     ]
+    ],
+    "name": "Dowse Eternal Flame",
+    "skill": 0,
+    "spell": 12253
+   },
+   {
+    "items": [
+     [
+      10757,
+      "Ward of the Defiler"
+     ]
+    ],
+    "name": "Summon Razelikh",
+    "skill": 1,
+    "spell": 13143
+   },
+   {
+    "items": [
+     [
+      10445,
+      "Drawing Kit"
+     ]
+    ],
+    "name": "Drawing Kit",
+    "skill": 0,
+    "spell": 12304
+   },
+   {
+    "items": [
+     [
+      10515,
+      "Torch of Retribution"
+     ]
+    ],
+    "name": "Flames of Retribution",
+    "skill": 0,
+    "spell": 12534
+   },
+   {
+    "items": [
+     [
+      9299,
+      "Thermaplugg's Safe Combination"
+     ]
+    ],
+    "name": "Opening Safe",
+    "skill": 0,
+    "spell": 11535
+   },
+   {
+    "items": [
+     [
+      11079,
+      "Gor'tesh's Lopped Off Head"
+     ]
+    ],
+    "name": "Plant Gor'tesh Head",
+    "skill": 1,
+    "spell": 13484
+   },
+   {
+    "items": [
+     [
+      11085,
+      "Customer of the Month Coffer Key"
+     ],
+     [
+      11197,
+      "Dark Keeper Key"
+     ]
+    ],
+    "name": "Opening Dark Coffer",
+    "skill": 0,
+    "spell": 13564
+   },
+   {
+    "items": [
+     [
+      11100,
+      ""
+     ]
+    ],
+    "name": "Opening Secure Safe",
+    "skill": 0,
+    "spell": 13565
+   },
+   {
+    "items": [
+     [
+      9472,
+      "Hexx's Key"
+     ]
+    ],
+    "name": "Opening Cage",
+    "skill": 0,
+    "spell": 11792
+   },
+   {
+    "items": [
+     [
+      11078,
+      "Relic Coffer Key"
+     ]
+    ],
+    "name": "Opening Relic Coffer",
+    "skill": 0,
+    "spell": 13478
+   },
+   {
+    "items": [
+     [
+      11115,
+      "Secret Safe Key"
+     ]
+    ],
+    "name": "Opening Secret Safe",
+    "skill": 0,
+    "spell": 14125
+   },
+   {
+    "items": [
+     [
+      13302,
+      "Market Row Postbox Key"
+     ],
+     [
+      13303,
+      "Crusaders' Square Postbox Key"
+     ],
+     [
+      13304,
+      "Festival Lane Postbox Key"
+     ],
+     [
+      13305,
+      "Elders' Square Postbox Key"
+     ],
+     [
+      13306,
+      "King's Square Postbox Key"
+     ],
+     [
+      13307,
+      "Ezra Grimm's Postbox Key"
+     ]
+    ],
+    "name": "Opening Stratholme Postbox",
+    "skill": 0,
+    "spell": 17432
+   },
+   {
+    "items": [
+     [
+      11602,
+      "Grim Guzzler Key"
+     ]
+    ],
+    "name": "Opening Bar Door",
+    "skill": 0,
+    "spell": 15276
+   },
+   {
+    "items": [
+     [
+      12286,
+      "Eggscilloscope Prototype"
+     ]
+    ],
+    "name": "Freeze Rookery Egg - Prototype",
+    "skill": 0,
+    "spell": 16028
+   },
+   {
+    "items": [
+     [
+      12144,
+      "Eggscilloscope"
+     ]
+    ],
+    "name": "Freeze Rookery Egg",
+    "skill": 0,
+    "spell": 15748
+   },
+   {
+    "items": [
+     [
+      12785,
+      "Incendia Powder"
+     ]
+    ],
+    "name": "Incendia Powder",
+    "skill": 0,
+    "spell": 16996
+   },
+   {
+    "items": [
+     [
+      12906,
+      "Purified Moonwell Water"
+     ]
+    ],
+    "name": "Sprinkling Purified Water",
+    "skill": 0,
+    "spell": 17155
+   },
+   {
+    "items": [
+     [
+      12973,
+      "Scarlet Cannonball"
+     ]
+    ],
+    "name": "Fire Cannon",
+    "skill": 0,
+    "spell": 17199
+   },
+   {
+    "items": [
+     [
+      12942,
+      "Panther Cage Key"
+     ]
+    ],
+    "name": "Panther Cage Key",
+    "skill": 0,
+    "spell": 17176
+   },
+   {
+    "items": [
+     [
+      12814,
+      "Flame in a Bottle"
+     ]
+    ],
+    "name": "Destroy Tent",
+    "skill": 1,
+    "spell": 17015
+   },
+   {
+    "items": [
+     [
+      12891,
+      "Jaron's Pick"
+     ]
+    ],
+    "name": "Find Relic Fragment",
+    "skill": 0,
+    "spell": 17474
+   },
+   {
+    "items": [
+     [
+      16308,
+      "Northridge Crowbar"
+     ]
+    ],
+    "name": "Opening Termite Barrel",
+    "skill": 0,
+    "spell": 18952
+   },
+   {
+    "items": [
+     [
+      14547,
+      "Hand of Iruxos"
+     ]
+    ],
+    "name": "Hand of Iruxos",
+    "skill": 0,
+    "spell": 18762
+   },
+   {
+    "items": [
+     [
+      15766,
+      "Gem of the Serpent"
+     ]
+    ],
+    "name": "Gem of the Serpent",
+    "skill": 0,
+    "spell": 19470
+   },
+   {
+    "items": [
+     [
+      14523,
+      "Demon Pick"
+     ]
+    ],
+    "name": "Demon Pick",
+    "skill": 0,
+    "spell": 18559
+   },
+   {
+    "items": [
+     [
+      16603,
+      "Enchanted Resonite Crystal"
+     ]
+    ],
+    "name": "Enchanted Resonite Crystal",
+    "skill": 0,
+    "spell": 20513
+   },
+   {
+    "items": [
+     [
+      15042,
+      "Empty Termite Jar"
+     ]
+    ],
+    "name": "Capturing Termites",
+    "skill": 0,
+    "spell": 20274
+   },
+   {
+    "items": [
+     [
+      16333,
+      "Samuel's Remains"
+     ]
+    ],
+    "name": "Bury Samuel's Remains",
+    "skill": 0,
+    "spell": 20364
+   },
+   {
+    "items": [
+     [
+      16208,
+      "Enchanted Gaea Seeds"
+     ]
+    ],
+    "name": "Enchanted Gaea Seed",
+    "skill": 0,
+    "spell": 20269
+   },
+   {
+    "items": [
+     [
+      17333,
+      "Aqual Quintessence"
+     ],
+     [
+      22754,
+      "Eternal Quintessence"
+     ]
+    ],
+    "name": "Aqual Quintessence - Dowse Molten Core Rune",
+    "skill": 0,
+    "spell": 21358
+   },
+   {
+    "items": [
+     [
+      17242,
+      "Key to Salem's Chest"
+     ]
+    ],
+    "name": "Opening",
+    "skill": 0,
+    "spell": 21248
+   },
+   {
+    "items": [
+     [
+      17262,
+      "James' Key"
+     ]
+    ],
+    "name": "Opening",
+    "skill": 0,
+    "spell": 21288
+   },
+   {
+    "items": [
+     [
+      18630,
+      "Doomsday Flare"
+     ]
+    ],
+    "name": "Fix Ritual Candle (DND)",
+    "skill": 0,
+    "spell": 23062
+   },
+   {
+    "items": [
+     [
+      18629,
+      "Black Lodestone"
+     ]
+    ],
+    "name": "Fix Ritual Node",
+    "skill": 0,
+    "spell": 23061
+   },
+   {
+    "items": [
+     [
+      18627,
+      "Gong of Dethmoora"
+     ]
+    ],
+    "name": "Fix Ritual Bell (DND)",
+    "skill": 0,
+    "spell": 23058
+   },
+   {
+    "items": [
+     [
+      19931,
+      "Gurubashi Mojo Madness"
+     ],
+     [
+      19932,
+      "UNUSED Empowered Mojo Bundle"
+     ]
+    ],
+    "name": "Extinguish",
+    "skill": 0,
+    "spell": 24264
+   },
+   {
+    "items": [
+     [
+      21173,
+      "Empty Festive Mug"
+     ]
+    ],
+    "name": "Empty Festive Mug",
+    "skill": 0,
+    "spell": 25853
+   },
+   {
+    "items": [
+     [
+      21174,
+      "Empty Festive Mug"
+     ]
+    ],
+    "name": "Filling",
+    "skill": 0,
+    "spell": 25855
+   },
+   {
+    "items": [
+     [
+      21761,
+      "Scarab Coffer Key"
+     ]
+    ],
+    "name": "Opening Scarab Coffer",
+    "skill": 0,
+    "spell": 26587
+   },
+   {
+    "items": [
+     [
+      21762,
+      "Greater Scarab Coffer Key"
+     ]
+    ],
+    "name": "Opening Greater Scarab Coffer",
+    "skill": 0,
+    "spell": 26588
+   },
+   {
+    "items": [
+     [
+      22486,
+      "[UNUSED] Scourge Invasion Boss Summoner"
+     ]
+    ],
+    "name": "[PH] Buttress Activator",
+    "skill": 0,
+    "spell": 28086
+   },
+   {
+    "items": [
+     [
+      23055,
+      "Word of Thawing"
+     ],
+     [
+      237773,
+      ""
+     ]
+    ],
+    "name": "Word of Thawing",
+    "skill": 0,
+    "spell": 28800
+   },
+   {
+    "items": [
+     [
+      206966,
+      "Satyrweed Bulb"
+     ]
+    ],
+    "name": "Plant Bulb",
+    "skill": 0,
+    "spell": 414953
+   },
+   {
+    "items": [
+     [
+      208682,
+      "Abandoned Snapjaw Egg"
+     ]
+    ],
+    "name": "Place Egg",
+    "skill": 0,
+    "spell": 420664
+   },
+   {
+    "items": [
+     [
+      208739,
+      "Horde Warbanner"
+     ]
+    ],
+    "name": "Place Warbanner",
+    "skill": 0,
+    "spell": 420666
+   },
+   {
+    "items": [
+     [
+      208743,
+      "Soul of Greed"
+     ],
+     [
+      209045,
+      "Soul of the Sea"
+     ]
+    ],
+    "name": "Feed Soul",
+    "skill": 0,
+    "spell": 420709
+   },
+   {
+    "items": [
+     [
+      208768,
+      "Buccaneer's Matchbox"
+     ]
+    ],
+    "name": "Ignite Powder Keg",
+    "skill": 0,
+    "spell": 420899
+   },
+   {
+    "items": [
+     [
+      209059,
+      "Goretusk Haunch"
+     ]
+    ],
+    "name": "Place Bait",
+    "skill": 0,
+    "spell": 422488
+   },
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 0,
+    "spell": 423088
+   },
+   {
+    "items": [
+     [
+      209608,
+      "Captain's Skeleton Key"
+     ]
+    ],
+    "name": "Opening",
+    "skill": 0,
+    "spell": 423632
+   },
+   {
+    "items": [],
+    "name": "Use Phylactery",
+    "skill": 0,
+    "spell": 426182
+   },
+   {
+    "items": [
+     [
+      211273,
+      ""
+     ]
+    ],
+    "name": "Place Bait",
+    "skill": 0,
+    "spell": 428604
+   },
+   {
+    "items": [
+     [
+      214435,
+      "Cougar Cage Key"
+     ]
+    ],
+    "name": "Cougar Cage Key",
+    "skill": 0,
+    "spell": 435317
+   },
+   {
+    "items": [
+     [
+      216523,
+      "Rusted Cage Key"
+     ]
+    ],
+    "name": "Rusted Cage Key",
+    "skill": 0,
+    "spell": 436295
+   },
+   {
+    "items": [],
+    "name": "Old Key",
+    "skill": 0,
+    "spell": 446838
+   },
+   {
+    "items": [
+     [
+      227932,
+      "Rusty Crowbar"
+     ]
+    ],
+    "name": "Opening",
+    "skill": 0,
+    "spell": 461679
+   },
+   {
+    "items": [
+     [
+      227451,
+      "Sending Sigil"
+     ]
+    ],
+    "name": "Sending Sigil",
+    "skill": 0,
+    "spell": 461833
+   },
+   {
+    "items": [
+     [
+      228912,
+      "Artifact Storage Key"
+     ]
+    ],
+    "name": "Opening",
+    "skill": 1,
+    "spell": 463320
+   },
+   {
+    "items": [
+     [
+      231789,
+      "Sigil of the Keeper"
+     ]
+    ],
+    "name": "Summoning",
+    "skill": 0,
+    "spell": 468830
+   },
+   {
+    "items": [
+     [
+      235518,
+      "Timbermaw War Banner"
+     ]
+    ],
+    "name": "Timbermaw War Banner",
+    "skill": 0,
+    "spell": 1217160
+   },
+   {
+    "items": [
+     [
+      235785,
+      "Deadwind Cage \"Key\""
+     ],
+     [
+      267412,
+      "Fenris Isle Key"
+     ]
+    ],
+    "name": "Smash",
+    "skill": 0,
+    "spell": 1218360
+   },
+   {
+    "items": [
+     [
+      237196,
+      "Suspicious Collection Equipment"
+     ]
+    ],
+    "name": "Place Suspicious Collection Equipment",
+    "skill": 1,
+    "spell": 1222018
+   },
+   {
+    "items": [
+     [
+      237230,
+      "Suspicious Neutralizing Compound"
+     ]
+    ],
+    "name": "Place Suspicious Neutralizing Compound",
+    "skill": 1,
+    "spell": 1222050
+   },
+   {
+    "items": [
+     [
+      238501,
+      "Pellet Gun"
+     ]
+    ],
+    "name": "Shoot",
+    "skill": 0,
+    "spell": 1225481
+   },
+   {
+    "items": [
+     [
+      238802,
+      "Druidic Amulet"
+     ]
+    ],
+    "name": "Agitate Corrupted Vine",
+    "skill": 1,
+    "spell": 1226350
+   },
+   {
+    "items": [],
+    "name": "Unlock",
+    "skill": 0,
+    "spell": 1231611
+   },
+   {
+    "items": [
+     [
+      246683,
+      "Treasure Trowel 3000"
+     ]
+    ],
+    "name": "Dig",
+    "skill": 0,
+    "spell": 1243356
+   },
+   {
+    "items": [
+     [
+      259357,
+      "Burning Keystone"
+     ]
+    ],
+    "name": "Dispel Barrier",
+    "skill": 0,
+    "spell": 1264887
+   },
+   {
+    "items": [],
+    "name": "Gathering",
+    "skill": 125,
+    "spell": 1273960
+   },
+   {
+    "items": [
+     [
+      265821,
+      "Twilight Key"
+     ]
+    ],
+    "name": "Unlocking",
+    "skill": 0,
+    "spell": 1277271
+   },
+   {
+    "items": [
+     [
+      266161,
+      "Tree Sprouting Kit"
+     ]
+    ],
+    "name": "Plant Seed",
+    "skill": 0,
+    "spell": 1277808
+   },
+   {
+    "items": [
+     [
+      266148,
+      "Farmers' Mementos"
+     ]
+    ],
+    "name": "Burying",
+    "skill": 0,
+    "spell": 1277874
+   },
+   {
+    "items": [
+     [
+      268505,
+      "Remote Explosive Charge"
+     ]
+    ],
+    "name": "Plant Charge",
+    "skill": 0,
+    "spell": 1282576
+   },
+   {
+    "items": [
+     [
+      268520,
+      "Lamora's Key"
+     ]
+    ],
+    "name": "Unlock Chest",
+    "skill": 0,
+    "spell": 1282662
+   },
+   {
+    "items": [],
+    "name": "Placing",
+    "skill": 0,
+    "spell": 1282951
+   },
+   {
+    "items": [
+     [
+      268647,
+      "Big Ball o' Bait"
+     ]
+    ],
+    "name": "Set Bait",
+    "skill": 0,
+    "spell": 1283137
+   },
+   {
+    "items": [
+     [
+      269997,
+      "Bundle of Candles"
+     ]
+    ],
+    "name": "Placing Candle",
+    "skill": 0,
+    "spell": 1287321
+   },
+   {
+    "items": [
+     [
+      872,
+      ""
+     ]
+    ],
+    "name": "Slicing",
+    "skill": 0,
+    "spell": 1291896
+   },
+   {
+    "items": [],
+    "name": "Gather Data",
+    "skill": 0,
+    "spell": 1320971
+   }
+  ],
+  "1": [
+   {
+    "items": [
+     [
+      985,
+      "Tome of Khadgar's Unlocking"
+     ]
+    ],
+    "name": "Khadgar's Unlocking",
+    "skill": 15,
+    "spell": 491
+   },
+   {
+    "items": [
+     [
+      1567,
+      "Tome of Khadgar's Unlocking II"
+     ]
+    ],
+    "name": "Khadgar's Unlocking",
+    "skill": 75,
+    "spell": 857
+   },
+   {
+    "items": [],
+    "name": "Pick Lock",
+    "skill": 5,
+    "spell": 1804
+   },
+   {
+    "items": [],
+    "name": "Pick Lock",
+    "skill": 5,
+    "spell": 6461
+   },
+   {
+    "items": [],
+    "name": "Pick Lock",
+    "skill": 5,
+    "spell": 6463
+   },
+   {
+    "items": [
+     [
+      7208,
+      "Tazan's Key"
+     ]
+    ],
+    "name": "Opening",
+    "skill": 1,
+    "spell": 8917
+   },
+   {
+    "items": [],
+    "name": "Khadgar's Unlocking",
+    "skill": 135,
+    "spell": 10165
+   },
+   {
+    "items": [],
+    "name": "Khadgar's Unlocking",
+    "skill": 195,
+    "spell": 10166
+   },
+   {
+    "items": [],
+    "name": "Arcanite Skeleton Key",
+    "skill": 200,
+    "spell": 19657
+   },
+   {
+    "items": [
+     [
+      15871,
+      "Truesilver Skeleton Key"
+     ]
+    ],
+    "name": "Truesilver Skeleton Key",
+    "skill": 200,
+    "spell": 19651
+   },
+   {
+    "items": [
+     [
+      15870,
+      "Golden Skeleton Key"
+     ]
+    ],
+    "name": "Golden Skeleton Key",
+    "skill": 125,
+    "spell": 19649
+   },
+   {
+    "items": [
+     [
+      15869,
+      "Silver Skeleton Key"
+     ]
+    ],
+    "name": "Silver Skeleton Key",
+    "skill": 25,
+    "spell": 19646
+   },
+   {
+    "items": [
+     [
+      15872,
+      "Arcanite Skeleton Key"
+     ]
+    ],
+    "name": "Arcanite Skeleton Key",
+    "skill": 300,
+    "spell": 20709
+   },
+   {
+    "items": [
+     [
+      277492,
+      "Scroll of Khadgar's Unlocking"
+     ]
+    ],
+    "name": "Khadgar's Unlocking",
+    "skill": 125,
+    "spell": 1302297
+   },
+   {
+    "items": [
+     [
+      228166,
+      ""
+     ]
+    ],
+    "name": "Key to the Kingdom",
+    "skill": 300,
+    "spell": 1305400
+   }
+  ],
+  "2": [
+   {
+    "items": [],
+    "name": "Herbalism",
+    "skill": 1,
+    "spell": 2366
+   },
+   {
+    "items": [],
+    "name": "Herbalism",
+    "skill": 1,
+    "spell": 3570
+   },
+   {
+    "items": [],
+    "name": "Herbalism",
+    "skill": 1,
+    "spell": 11993
+   },
+   {
+    "items": [],
+    "name": "Herbalism",
+    "skill": 0,
+    "spell": 2369
+   },
+   {
+    "items": [],
+    "name": "Herbalism",
+    "skill": 0,
+    "spell": 2371
+   },
+   {
+    "items": [],
+    "name": "Herbalism",
+    "skill": 1,
+    "spell": 2368
+   },
+   {
+    "items": [],
+    "name": "Cultivation",
+    "skill": 1,
+    "spell": 1312650
+   }
+  ],
+  "3": [
+   {
+    "items": [],
+    "name": "Mining",
+    "skill": 1,
+    "spell": 2575
+   },
+   {
+    "items": [],
+    "name": "Mining",
+    "skill": 1,
+    "spell": 2576
+   },
+   {
+    "items": [],
+    "name": "Mining",
+    "skill": 125,
+    "spell": 2579
+   },
+   {
+    "items": [],
+    "name": "Mining",
+    "skill": 100,
+    "spell": 2578
+   },
+   {
+    "items": [],
+    "name": "Mining",
+    "skill": 75,
+    "spell": 2577
+   },
+   {
+    "items": [],
+    "name": "Mining",
+    "skill": 1,
+    "spell": 3564
+   },
+   {
+    "items": [],
+    "name": "Mining",
+    "skill": 1,
+    "spell": 10248
+   },
+   {
+    "items": [],
+    "name": "Mining",
+    "skill": 0,
+    "spell": 1264639
+   }
+  ],
+  "4": [
+   {
+    "items": [],
+    "name": "Disarm Trap",
+    "skill": 200,
+    "spell": 1842
+   }
+  ],
+  "5": [
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 1000,
+    "spell": 3365
+   },
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 0,
+    "spell": 1221363
+   },
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 100,
+    "spell": 1269930
+   },
+   {
+    "items": [],
+    "name": "Summoning",
+    "skill": 0,
+    "spell": 1278934
+   },
+   {
+    "items": [],
+    "name": "Capturing",
+    "skill": 1000,
+    "spell": 1322629
+   }
+  ],
+  "8": [
+   {
+    "items": [],
+    "name": "Closing",
+    "skill": 1000,
+    "spell": 6233
+   }
+  ],
+  "10": [
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 1000,
+    "spell": 6247
+   }
+  ],
+  "11": [
+   {
+    "items": [],
+    "name": "Closing",
+    "skill": 1000,
+    "spell": 6246
+   }
+  ],
+  "12": [
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 1000,
+    "spell": 6477
+   }
+  ],
+  "13": [
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 1000,
+    "spell": 6478
+   },
+   {
+    "items": [],
+    "name": "Light On Fire",
+    "skill": 1000,
+    "spell": 17667
+   },
+   {
+    "items": [],
+    "name": "Opening - No Text",
+    "skill": 1000,
+    "spell": 22810
+   }
+  ],
+  "14": [
+   {
+    "items": [],
+    "name": "Attacking",
+    "skill": 1000,
+    "spell": 8386
+   }
+  ],
+  "16": [
+   {
+    "items": [
+     [
+      4398,
+      "Large Seaforium Charge"
+     ]
+    ],
+    "name": "Large Seaforium Charge",
+    "skill": 250,
+    "spell": 4075
+   },
+   {
+    "items": [
+     [
+      4367,
+      "Small Seaforium Charge"
+     ]
+    ],
+    "name": "Small Seaforium Charge",
+    "skill": 150,
+    "spell": 4056
+   },
+   {
+    "items": [
+     [
+      18594,
+      "Powerful Seaforium Charge"
+     ]
+    ],
+    "name": "Powerful Seaforium Charge",
+    "skill": 300,
+    "spell": 23008
+   },
+   {
+    "items": [
+     [
+      221325,
+      "EZ-Splode Blasting Charge"
+     ]
+    ],
+    "name": "EZ-Splode Blasting Charge",
+    "skill": 250,
+    "spell": 446504
+   }
+  ],
+  "17": [
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 1000,
+    "spell": 21651
+   },
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 100,
+    "spell": 26868
+   }
+  ],
+  "18": [
+   {
+    "items": [],
+    "name": "Closing",
+    "skill": 1000,
+    "spell": 21652
+   }
+  ],
+  "209": [
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 100,
+    "spell": 1236393
+   },
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 100,
+    "spell": 1308379
+   },
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 100,
+    "spell": 1309310
+   },
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 100,
+    "spell": 1309978
+   },
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 100,
+    "spell": 1310156
+   },
+   {
+    "items": [],
+    "name": "Opening",
+    "skill": 100,
+    "spell": 1310491
+   }
+  ]
+ },
+ "sha256": {
+  "ItemEffect": "5900caec61834bccea880b5abfc41a0b0cb249cd28222067f457f156cbcc65be",
+  "ItemSparse": "c4910b0ca68f886b3745be0a54cba4e1400240c618f99af05cd569a4da72c861",
+  "ItemXItemEffect": "7b5ded46747d7c3d80b8854130ae73069f4007e1a3140bcb6aa1964e0b7a71bf",
+  "Lock": "49e83152bcfb71d5125464e617a91e0001b3e73bf938f4cf624552f3a9e2801d",
+  "LockType": "1170a97be32714f1e56c41839917182858b605e5ac78826dc5559e88285b7552",
+  "Map": "ed4ae1ec9990ce80402ad3a0720a52edf792ee77da8d10ac0b66e3892cb4e30a",
+  "SpellEffect": "7d14075e4444dbd364be9943ad9b90872275da2b1c1f63f39b5cf3da9b5e3f80",
+  "SpellName": "679a769bcfa443eba64e707efd395da41c752729eaa8af46aed9eb8316c5f864"
+ },
+ "source": "Forever client DB2 via wago.tools CSV export"
+}

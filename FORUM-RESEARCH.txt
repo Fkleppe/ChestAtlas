@@ -1,0 +1,55 @@
+Chest Atlas: Forever chest research — 8 October 2026
+
+Search scope: Chinese 宝箱 / 箱子 with 无限 / 永恒 / Forever, including NGA,
+plus60 and Chinese fansites; Russian сундук / сундуки with Forever / Форевер,
+including Noob Club, Blizzard RU forums and Russian fansites; English Forever
+beta threads for independent and official checks. Publicly indexed pages only.
+No login, posting, or downloads of other addons were performed.
+
+1. Chinese forum: fishing chests, not ground treasure spawn timers
+https://plus60.cn/thread-238-1-1.html
+Post dated 24 September 2026, a user-authored guide to fishing Mithril chests
+around a neutral port, reached by boat from Steamwheedle. It claims a high chest
+yield from floating wreckage and roughly 0.6g vendor proceeds per chest.
+These are unverified claims without a sample size or independent corroboration.
+Fishing containers are a separate source from the ground objects in Chest Atlas.
+No asserted percentage, profit guarantee or coordinate was imported.
+
+2. Russian references explicitly distinguish Classic from live Forever
+https://forevercraft.ru/maps/?map=2652
+The author labels chest/community reference positions as unconfirmed on the
+Forever server, and does not infer drop probabilities from those map records.
+This supports retaining source labels rather than presenting an emulator
+database as current Forever observations. No new validated spawn coordinates
+or ordinary-chest respawn measurement were located in the indexed Russian
+forum results. General Forever discussion is not evidence for chest behavior.
+
+3. Forever supply crates: conflicting direct player reports
+https://us.forums.blizzard.com/en/wow/t/supply-crate-drop-rates/2365192
+28 September 2026. Some players report finding crates from chests frequently;
+another reports opening several chests and receiving none. A claimed 80–90%
+rate is an anecdote, not a verified probability or official specification.
+https://us.forums.blizzard.com/en/wow/t/waylaid-crates-bugged-drop-rates-or-just-giga-unlucky/2357989
+22 September 2026. Users report very different numbers while leveling. These
+threads provide a reason to record actual Forever loot, not a new fixed table.
+
+4. Official beta fix: quest items missing from restocked chests
+https://us.forums.blizzard.com/en/wow/t/brief-beta-realm-maintenance-october-6/2374348/1
+Blizzard community manager Kaivax, 6 October 2026, announces a restart with a
+fix intended to address quest items that should restock in chests but went
+missing. This is specific to quest item restocking. It does not establish a
+five-minute timer, ordinary treasure loot change or universal respawn rule.
+The Chinese summary at https://wowf.io/zh/news points to the same announcement.
+
+5. Find Treasure: distinguish game tracking from reference addon markers
+https://us.forums.blizzard.com/en/wow/t/find-treasure-is-worthless/2367587
+30 September 2026. Players discuss locked, contested or partly emptied chests
+and the distinction between nearby game tracking and addon spawn references.
+These are player experiences; proposed racial changes in this thread and
+https://us.forums.blizzard.com/en/wow/t/find-treasure-grants-bonus-gems-from-chests-mining/2374600
+are suggestions, not announced or implemented chest mechanics.
+
+Result for 0.4.0: keep all existing historical coordinates and tables unchanged;
+show personal evidence explicitly; routes guide visits without asserting a live
+spawn; frequent loot filter uses labeled historical probabilities. No reliable
+new universal Forever chest respawn timer was found in this search.

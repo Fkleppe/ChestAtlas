@@ -1,0 +1,955 @@
+{
+ "forever": {
+  "build": "1.60.1.70338",
+  "sha256": {
+   "ItemEffect": "5900caec61834bccea880b5abfc41a0b0cb249cd28222067f457f156cbcc65be",
+   "ItemSparse": "c4910b0ca68f886b3745be0a54cba4e1400240c618f99af05cd569a4da72c861",
+   "ItemXItemEffect": "7b5ded46747d7c3d80b8854130ae73069f4007e1a3140bcb6aa1964e0b7a71bf",
+   "Lock": "49e83152bcfb71d5125464e617a91e0001b3e73bf938f4cf624552f3a9e2801d",
+   "LockType": "1170a97be32714f1e56c41839917182858b605e5ac78826dc5559e88285b7552",
+   "Map": "ed4ae1ec9990ce80402ad3a0720a52edf792ee77da8d10ac0b66e3892cb4e30a",
+   "SpellEffect": "7d14075e4444dbd364be9943ad9b90872275da2b1c1f63f39b5cf3da9b5e3f80",
+   "SpellName": "679a769bcfa443eba64e707efd395da41c752729eaa8af46aed9eb8316c5f864"
+  }
+ },
+ "sqlSHA256": "4f92db520868ab4e566726f68b5b2e380ae781209beaf22237b4f7f04600d0c0",
+ "moduleSHA256": "10c4012e0f7c034228c6adaa88231d273f60c87138442d73437f609efa62314e",
+ "instances": 20,
+ "chestTypes": 43,
+ "spawnPoints": 235,
+ "knownClassicObjects": 876,
+ "rows": [
+  {
+   "map": 33,
+   "instance": "Shadowfang Keep",
+   "entry": 75293,
+   "name": "Large Battered Chest",
+   "spawns": 4,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 163,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 33,
+   "instance": "Shadowfang Keep",
+   "entry": 75295,
+   "name": "Large Iron Bound Chest",
+   "spawns": 6,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 420,
+   "lockID": 5,
+   "locked": true,
+   "pickLock": 1,
+   "tools": [
+    [
+     15869,
+     "Silver Skeleton Key",
+     25
+    ],
+    [
+     15870,
+     "Golden Skeleton Key",
+     125
+    ],
+    [
+     277492,
+     "Scroll of Khadgar's Unlocking",
+     125
+    ],
+    [
+     15871,
+     "Truesilver Skeleton Key",
+     200
+    ],
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    75298
+   ]
+  },
+  {
+   "map": 33,
+   "instance": "Shadowfang Keep",
+   "entry": 75298,
+   "name": "Large Solid Chest",
+   "spawns": 6,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 420,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    75295
+   ]
+  },
+  {
+   "map": 34,
+   "instance": "Stormwind Stockade",
+   "entry": 75295,
+   "name": "Large Iron Bound Chest",
+   "spawns": 8,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 420,
+   "lockID": 5,
+   "locked": true,
+   "pickLock": 1,
+   "tools": [
+    [
+     15869,
+     "Silver Skeleton Key",
+     25
+    ],
+    [
+     15870,
+     "Golden Skeleton Key",
+     125
+    ],
+    [
+     277492,
+     "Scroll of Khadgar's Unlocking",
+     125
+    ],
+    [
+     15871,
+     "Truesilver Skeleton Key",
+     200
+    ],
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    75298
+   ]
+  },
+  {
+   "map": 34,
+   "instance": "Stormwind Stockade",
+   "entry": 75298,
+   "name": "Large Solid Chest",
+   "spawns": 8,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 420,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    75295
+   ]
+  },
+  {
+   "map": 36,
+   "instance": "Deadmines",
+   "entry": 75293,
+   "name": "Large Battered Chest",
+   "spawns": 6,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 163,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 43,
+   "instance": "Wailing Caverns",
+   "entry": 75293,
+   "name": "Large Battered Chest",
+   "spawns": 8,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 163,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 47,
+   "instance": "Razorfen Kraul",
+   "entry": 74447,
+   "name": "Large Iron Bound Chest",
+   "spawns": 4,
+   "sources": "VM",
+   "flags": 2,
+   "event": false,
+   "items": 413,
+   "lockID": 23,
+   "locked": true,
+   "pickLock": 25,
+   "tools": [
+    [
+     15869,
+     "Silver Skeleton Key",
+     25
+    ],
+    [
+     15870,
+     "Golden Skeleton Key",
+     125
+    ],
+    [
+     277492,
+     "Scroll of Khadgar's Unlocking",
+     125
+    ],
+    [
+     15871,
+     "Truesilver Skeleton Key",
+     200
+    ],
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    74448
+   ]
+  },
+  {
+   "map": 47,
+   "instance": "Razorfen Kraul",
+   "entry": 74448,
+   "name": "Large Solid Chest",
+   "spawns": 4,
+   "sources": "VM",
+   "flags": 0,
+   "event": false,
+   "items": 413,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    74447
+   ]
+  },
+  {
+   "map": 48,
+   "entry": 13949,
+   "name": "Pitted Iron Chest",
+   "excluded": "quest-only loot"
+  },
+  {
+   "map": 48,
+   "instance": "Blackfathom Deeps",
+   "entry": 75295,
+   "name": "Large Iron Bound Chest",
+   "spawns": 5,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 420,
+   "lockID": 5,
+   "locked": true,
+   "pickLock": 1,
+   "tools": [
+    [
+     15869,
+     "Silver Skeleton Key",
+     25
+    ],
+    [
+     15870,
+     "Golden Skeleton Key",
+     125
+    ],
+    [
+     277492,
+     "Scroll of Khadgar's Unlocking",
+     125
+    ],
+    [
+     15871,
+     "Truesilver Skeleton Key",
+     200
+    ],
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    75298
+   ]
+  },
+  {
+   "map": 48,
+   "instance": "Blackfathom Deeps",
+   "entry": 75298,
+   "name": "Large Solid Chest",
+   "spawns": 5,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 420,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    75295
+   ]
+  },
+  {
+   "map": 70,
+   "entry": 113757,
+   "name": "Shadowforge Cache",
+   "excluded": "quest-only loot"
+  },
+  {
+   "map": 70,
+   "instance": "Uldaman",
+   "entry": 123329,
+   "name": "Baelog's Chest",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 1,
+   "lockID": 93,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 70,
+   "instance": "Uldaman",
+   "entry": 131978,
+   "name": "Large Mithril Bound Chest",
+   "spawns": 2,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 20,
+   "lockID": 61,
+   "locked": true,
+   "pickLock": 175,
+   "tools": [
+    [
+     15871,
+     "Truesilver Skeleton Key",
+     200
+    ],
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    131979
+   ]
+  },
+  {
+   "map": 70,
+   "instance": "Uldaman",
+   "entry": 131979,
+   "name": "Large Darkwood Chest",
+   "spawns": 2,
+   "sources": "VM",
+   "flags": 0,
+   "event": false,
+   "items": 20,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    131978
+   ]
+  },
+  {
+   "map": 70,
+   "instance": "Uldaman",
+   "entry": 141979,
+   "name": "Ancient Treasure",
+   "spawns": 1,
+   "sources": "CM",
+   "flags": 0,
+   "event": false,
+   "items": 196,
+   "lockID": 43,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 90,
+   "instance": "Gnomeregan",
+   "entry": 74447,
+   "name": "Large Iron Bound Chest",
+   "spawns": 6,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 413,
+   "lockID": 23,
+   "locked": true,
+   "pickLock": 25,
+   "tools": [
+    [
+     15869,
+     "Silver Skeleton Key",
+     25
+    ],
+    [
+     15870,
+     "Golden Skeleton Key",
+     125
+    ],
+    [
+     277492,
+     "Scroll of Khadgar's Unlocking",
+     125
+    ],
+    [
+     15871,
+     "Truesilver Skeleton Key",
+     200
+    ],
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    74448
+   ]
+  },
+  {
+   "map": 90,
+   "instance": "Gnomeregan",
+   "entry": 74448,
+   "name": "Large Solid Chest",
+   "spawns": 6,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 413,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    74447
+   ]
+  },
+  {
+   "map": 129,
+   "instance": "Razorfen Downs",
+   "entry": 75297,
+   "name": "Large Iron Bound Chest",
+   "spawns": 8,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 605,
+   "lockID": 60,
+   "locked": true,
+   "pickLock": 125,
+   "tools": [
+    [
+     15870,
+     "Golden Skeleton Key",
+     125
+    ],
+    [
+     277492,
+     "Scroll of Khadgar's Unlocking",
+     125
+    ],
+    [
+     15871,
+     "Truesilver Skeleton Key",
+     200
+    ],
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    75300
+   ]
+  },
+  {
+   "map": 129,
+   "instance": "Razorfen Downs",
+   "entry": 75300,
+   "name": "Large Solid Chest",
+   "spawns": 8,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 605,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    75297
+   ]
+  },
+  {
+   "map": 189,
+   "instance": "Scarlet Monastery",
+   "entry": 75296,
+   "name": "Large Iron Bound Chest",
+   "spawns": 8,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 605,
+   "lockID": 24,
+   "locked": true,
+   "pickLock": 70,
+   "tools": [
+    [
+     15870,
+     "Golden Skeleton Key",
+     125
+    ],
+    [
+     277492,
+     "Scroll of Khadgar's Unlocking",
+     125
+    ],
+    [
+     15871,
+     "Truesilver Skeleton Key",
+     200
+    ],
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    75299
+   ]
+  },
+  {
+   "map": 189,
+   "instance": "Scarlet Monastery",
+   "entry": 75297,
+   "name": "Large Iron Bound Chest",
+   "spawns": 2,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 605,
+   "lockID": 60,
+   "locked": true,
+   "pickLock": 125,
+   "tools": [
+    [
+     15870,
+     "Golden Skeleton Key",
+     125
+    ],
+    [
+     277492,
+     "Scroll of Khadgar's Unlocking",
+     125
+    ],
+    [
+     15871,
+     "Truesilver Skeleton Key",
+     200
+    ],
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    75300
+   ]
+  },
+  {
+   "map": 189,
+   "instance": "Scarlet Monastery",
+   "entry": 75299,
+   "name": "Large Solid Chest",
+   "spawns": 8,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 605,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    75296
+   ]
+  },
+  {
+   "map": 189,
+   "instance": "Scarlet Monastery",
+   "entry": 75300,
+   "name": "Large Solid Chest",
+   "spawns": 2,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 605,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    75297
+   ]
+  },
+  {
+   "map": 189,
+   "instance": "Scarlet Monastery",
+   "entry": 103821,
+   "name": "Doan's Strongbox",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 1,
+   "lockID": 43,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 209,
+   "instance": "Zul'Farrak",
+   "entry": 141596,
+   "name": "Witch Doctor's Chest",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 57,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 229,
+   "instance": "Blackrock Spire",
+   "entry": 153464,
+   "name": "Large Solid Chest",
+   "spawns": 19,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 192,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    153469
+   ]
+  },
+  {
+   "map": 229,
+   "instance": "Blackrock Spire",
+   "entry": 153469,
+   "name": "Large Mithril Bound Chest",
+   "spawns": 19,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 192,
+   "lockID": 600,
+   "locked": true,
+   "pickLock": 275,
+   "tools": [
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    153464
+   ]
+  },
+  {
+   "map": 229,
+   "entry": 175382,
+   "name": "Doomrigger's Coffer",
+   "excluded": "quest-only loot"
+  },
+  {
+   "map": 230,
+   "instance": "Blackrock Depths",
+   "entry": 160836,
+   "name": "Relic Coffer",
+   "spawns": 12,
+   "sources": "VMCM",
+   "flags": 16,
+   "event": false,
+   "items": 12,
+   "lockID": 93,
+   "locked": false,
+   "keys": [
+    11078
+   ],
+   "sharesWith": []
+  },
+  {
+   "map": 230,
+   "instance": "Blackrock Depths",
+   "entry": 160845,
+   "name": "Dark Coffer",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 16,
+   "event": false,
+   "items": 171,
+   "lockID": 93,
+   "locked": false,
+   "keys": [
+    11197
+   ],
+   "sharesWith": []
+  },
+  {
+   "map": 230,
+   "instance": "Blackrock Depths",
+   "entry": 169243,
+   "name": "Chest of The Seven",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": true,
+   "items": 8,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 289,
+   "instance": "Scholomance",
+   "entry": 176944,
+   "name": "Old Treasure Chest",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 84,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 329,
+   "instance": "Stratholme",
+   "entry": 153464,
+   "name": "Large Solid Chest",
+   "spawns": 9,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 192,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    153469
+   ]
+  },
+  {
+   "map": 329,
+   "instance": "Stratholme",
+   "entry": 153469,
+   "name": "Large Mithril Bound Chest",
+   "spawns": 8,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 192,
+   "lockID": 600,
+   "locked": true,
+   "pickLock": 275,
+   "tools": [
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    153464
+   ]
+  },
+  {
+   "map": 329,
+   "instance": "Stratholme",
+   "entry": 176112,
+   "name": "Malor's Strongbox",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 1,
+   "lockID": 43,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 409,
+   "instance": "Molten Core",
+   "entry": 179703,
+   "name": "Cache of the Firelord",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": true,
+   "items": 12,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 429,
+   "instance": "Dire Maul",
+   "entry": 153464,
+   "name": "Large Solid Chest",
+   "spawns": 9,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 192,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": [
+    153469
+   ]
+  },
+  {
+   "map": 429,
+   "instance": "Dire Maul",
+   "entry": 153469,
+   "name": "Large Mithril Bound Chest",
+   "spawns": 9,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 192,
+   "lockID": 600,
+   "locked": true,
+   "pickLock": 275,
+   "tools": [
+    [
+     15872,
+     "Arcanite Skeleton Key",
+     300
+    ]
+   ],
+   "sharesWith": [
+    153464
+   ]
+  },
+  {
+   "map": 429,
+   "instance": "Dire Maul",
+   "entry": 179501,
+   "name": "Knot Thimblejack's Cache",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": true,
+   "items": 25,
+   "lockID": 43,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 429,
+   "instance": "Dire Maul",
+   "entry": 179516,
+   "name": "Fengus's Chest",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": false,
+   "items": 1,
+   "lockID": 43,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 429,
+   "entry": 179545,
+   "name": "The Prince's Chest",
+   "excluded": "quest-only loot"
+  },
+  {
+   "map": 429,
+   "instance": "Dire Maul",
+   "entry": 179564,
+   "name": "Gordok Tribute",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": true,
+   "items": 25,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": []
+  },
+  {
+   "map": 509,
+   "instance": "Ruins of Ahn'Qiraj",
+   "entry": 180691,
+   "name": "Scarab Coffer",
+   "spawns": 10,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 9,
+   "lockID": 1629,
+   "locked": true,
+   "keys": [
+    21761
+   ],
+   "sharesWith": []
+  },
+  {
+   "map": 531,
+   "instance": "Ahn'Qiraj Temple",
+   "entry": 180690,
+   "name": "Large Scarab Coffer",
+   "spawns": 11,
+   "sources": "VMCM",
+   "flags": 2,
+   "event": false,
+   "items": 9,
+   "lockID": 1630,
+   "locked": true,
+   "keys": [
+    21762
+   ],
+   "sharesWith": []
+  },
+  {
+   "map": 533,
+   "instance": "Naxxramas",
+   "entry": 181366,
+   "name": "Four Horsemen Chest",
+   "spawns": 1,
+   "sources": "VMCM",
+   "flags": 0,
+   "event": true,
+   "items": 0,
+   "lockID": 57,
+   "locked": false,
+   "sharesWith": []
+  }
+ ]
+}

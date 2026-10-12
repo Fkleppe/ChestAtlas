@@ -1,0 +1,291 @@
+Chest Atlas 0.6.0 — validation (12 October 2026)
+
+PASS tests/test_instances.py: 43 chest types in 20 instances, each with type, loot
+     entry and named keys/tools; Relic/Dark/Scarab coffer keys; Mithril Bound
+     Lockpicking 275 with Arcanite Skeleton Key only; shared Solid/Mithril points;
+     event chests; requirement text; instance announcement; per-instance loot log
+     with same-GUID reopen; non-chest Classic objects ignored; no open-world writes
+     inside instances; Forever-only discoveries in and outside instances; gathering
+     casts excluded; panel detail with carried keys and Lockpicking; backup D/I rows
+     roundtrip and atomic rejection. Mutation checks: removing the instance chest
+     filter or the gathering guard makes the test fail.
+PASS tests/test_autolog.py, tests/test_chestatlas.py, value/companion and
+     loot/currency suites with the new modules.
+PASS independent coverage audit: all 20,160 outdoor chest spawns in CMaNGOS and
+     VMaNGOS have a same-name marker within 40 yards (median 1.3 yd); the 84 others
+     are CMaNGOS-only quest objects outside every 1.12 zone, plus 2 off-map rows.
+NOT VERIFIED in the live client: panel layout, IsInInstance/GetInstanceInfo and
+     GetLootSourceInfo on Forever, tooltip/cast-target object names.
+Chest Atlas 0.5.0 — validation (12 October 2026)
+
+PASS tests/test_autolog.py against the installed modules (Lua 5.1 via lupa):
+     loot of a known chest creates one linked, looted find with contents;
+     same-GUID reopen ignored; new GUID records the shortest re-loot gap;
+     creature, quest/special and unknown objects ignored; coin-only chest
+     attributed; /ca auto toggle; route advances only on the current stop
+     (mutation check: removing the advance makes the test fail); family marker
+     resolves the exact variant; duplicate loot window ignored; backup R rows
+     roundtrip and malformed history rejected atomically; map settings build.
+PASS tests/test_chestatlas.py (module list updated for the removed rare module):
+     10,173 references, filters, journal, timers, backup, runtime and UI.
+PASS value/companion and loot/currency suites against the current module list.
+NOT RUN test_companion/test_mapcanvas/test_layout/test_coverage: they still
+     reference the rare module removed in 0.4.1.
+NOT VERIFIED in the live client: GetLootSourceInfo GUID format on Forever and
+     the settings checkbox position. Check /ca status and a real chest loot.
+
+Previous release validation (historical record):Chest Atlas 0.4.1 — validation (8 October 2026)
+
+PASS per-marker full audit of all 10,173 references against original pfQuest,
+     raw GatherMate Era coordinates, current frozen CM/VM source spawn GUIDs
+     and independent world-to-zone affine projection. Zero source disagreements.
+PASS all 422 exact object bindings, expanded loot links, historical coin ranges
+     and complete valid chance-or-unknown coverage against pinned SQL input.
+     10,092 locations have documented possible loot; 81 quest/special locations
+     have no historical item list. All remain unconfirmed on live Forever.
+PASS removed custom rare module and NPC database; native map/minimap pins remain
+     chest-only with RareScanner absent. Prior rare filters migrate to chests;
+     rare shortcuts delegate exclusively to RareScanner when enabled.
+Each coordinate and loot audit result is recorded in AUDIT-ALL-CHESTS.csv and
+counts/scope are in AUDIT-SUMMARY.json.
+
+PASS independent unions for all 576 family markers, for both full Classic and
+     pfQuest sources; duplicate-free, zone-scoped candidate object/item sets.
+PASS reported Ashenvale Battered Chest legacy:331:195 (10.4,22.6), both detail
+     views, possible-variant labels, source IDs, search and frequent-filter reset.
+PASS no assigned family probabilities/coins, no rewritten object IDs or evidence,
+     zone-isolated best-value/search caches and linked-find context.
+PASS Lua 5.1 compilation, core/value/route tests, independent currency/loot audit,
+     pinned Forever MapCanvas integration and layout checks from 0.4.0.
+
+Live in-game validation remains pending; these checks simulate the client.
+Restart WoW completely to load the new file list and discard the removed
+Christmas addon's already-loaded code. Raw reference data and SavedVariables
+are unchanged. The previous installed addon is backed up before replacement.
+
+Previous release validation (historical record):
+Chest Atlas 0.4.0 — validation (8 October 2026)
+
+PASS all Lua modules compile as Lua 5.1; unchanged TOC load order and XML.
+PASS core filters, observations, realm journals and atomic backups.
+PASS actual pinned Forever MapCanvas source with simulated native widgets:
+     pins/pools/hover/click, minimap, native waypoints, restricted APIs,
+     rare separation and RareScanner compatibility; 500 malformed imports.
+PASS world-aspect-aware chest visit order, exclusion of rares, linked-find
+     deduplication in both input orders, 150-stop bound, invalid route starts,
+     manual next/skip/completion with zero journal writes, manual target
+     replacement, stopping owned waypoints while preserving foreign targets.
+PASS linked personal evidence in header and marker, concise five-line tooltip,
+     tab actions and source/journal context, pinned chance, frequent threshold,
+     zero/missing probabilities, source switches and recorded-loot mode.
+PASS the new route/evidence/tab/loot suite also runs against the actual installed
+     Lua modules; installed runtime files match the workspace and ZIP bytes.
+PASS asynchronous item price loading, bounded requests and unknown/zero prices.
+PASS four loot sort directions and independent historical currency/loot audit.
+PASS geometry containment/overlap in 11 views across seven panels, including
+     Loot/Journal/Sources in both details; 1280x720 / 1920x1080 / 2560x1440 fit.
+PASS all 334 rare and 426 represented container compact summaries fit.
+
+These are source/runtime simulations and diagnostic layout renders, not a
+claim that live Forever chests, server loot or respawn timers were verified.
+In-game validation of this release remains pending at time of packaging.
+No reference data or personal SavedVariables were changed.
+No new TOC files: /reload loads updated code in a running client.
+Package/install byte verification is recorded in ChestAtlas-install-validation.json.
+
+Previous release validation (historical record):
+Chest Atlas 0.3.5 — validation
+
+PASS portable audit/builder reproduces exact module bytes from frozen anchors.
+PASS independent SQL inventory of all 621 non-resource type-3 templates and source
+     records, active VM patch 10, CM alternative entries, instances and invalid maps.
+PASS 20,160 valid outdoor records within same-family 0.15% map tolerance; zero missing.
+PASS all 10,173 valid location IDs/references; old 4,973 IDs/coordinates unchanged.
+PASS 5,200 additions, 29 ordinary treasure points and category separation.
+PASS 272 new exact loot/currency types, 426 links with independently parsed SQL pools.
+PASS original loot tables unchanged; every extra item has chance or unknown reason.
+PASS new Swamp chest on actual Forever MapCanvas with simulated widgets: exact
+     detail/waypoint/source label, 13px world icon and favorite export/import.
+PASS Lua 5.1 compilation, source references, TOC/XML and 10,173-location core checks.
+PASS backup, restricted APIs, 500 malformed inputs, native map/minimap/navigation.
+PASS real RareScanner LibStub/AceDB pairing and no duplicate rare feed.
+PASS vendor value/chance behavior, pinned best item and bounded async item requests.
+PASS seven-panel layout, screen fit and all 426 represented container summaries.
+
+Live in-game rendering/server drops have not been verified. Source family/tolerance
+coverage is not exact GUID/loot-variant completeness or all Classic chest coverage.
+3,119 instance/other-map rows and two off-map quest objects remain unplaced.
+Complete restart required for the two new TOC modules.
+
+Previous release regression checklists (historical record):
+Chest Atlas 0.3.4 — validation
+
+PASS: all addon Lua modules compile in Lua 5.1; TOC/XML files present and valid.
+PASS: all 150 exact object item sets independently checked using numeric-prefix SQL
+      parsing, separate from the builder's CSV/tuple parser (18,303 associations).
+PASS: all 135 exact type-3 currency ranges checked by independent SQL tail parsing.
+PASS: pinned SQL/name source hashes validated; portable builder produces identical
+      ClassicLootData.lua SHA256 6717820d06023e3d90ddb6ddccca517edef4c6e73a78665e2e132affc6b07ecb.
+PASS: all numeric chances finite and bounded; every loot item has a number or reason
+      for unknown. Direct grouped rows/reference rows have valid count/chance fields.
+PASS: hand-calculated 20% + two equal 40% group entries, and 10% reference activation
+      times 50% inner chance = 5%; repeated/conditional/quest/multiple/overfull paths
+      remain unknown. These are static estimates, not measured server probabilities.
+PASS: value and drop chance sort in both directions; unknowns last; known zero stays
+      known. Saved sort, actual picker callbacks, page reset, search/source switching.
+PASS: complete/source-specific best-loot cache; most valuable card independent of sort,
+      source selection preserved, original Vanilla fallback and recorded source intact.
+PASS: coin units/ranges, known zero, generic/rare unknowns and no fabricated probabilities.
+PASS: real Forever MapCanvas/frame manager with simulated native frames/pools: map pins,
+      exact waypoints, navigation, focus, minimap bounds/rotation/zoom and transitions.
+PASS: 500 malformed backups rejected atomically; journal/realm/loot attribution checks.
+PASS: actual RareScanner LibStub/AceDB pairing, separate profile and no duplicate NPC feed.
+PASS: value async loading, bounded requests, failed/invalid/zero prices, filters/pages.
+PASS: frozen/additive source coverage and all 4,973 stable location records retained.
+PASS: seven-panel geometry, page controls, text bounds, 1280x720/1920x1080/2560x1440
+      fit; all 334 rare and 154 represented container summaries fit; diagnostic render
+      inspected for new coin line and source/filter/sort controls.
+
+Commands run: tests/test_chestatlas.py, tests/test_loot_currency.py;
+work/check_chestatlas_layout.py, work/test_chestatlas_values.py,
+work/test_chestatlas_companion.py, work/test_chest_coverage.py.
+All corresponding portable tests/build source are included in the release.
+
+In-game rendering and live Forever loot/rates have NOT been verified.
+Classic full snapshot excludes later database Updates SQL. Generic variants remain
+unknown. No claim of every live spawn or guaranteed chest contents/respawn.
+A complete WoW restart is required because ClassicLootData.lua was added to the TOC.
+
+Previous release regression checklist (historical record):
+Chest Atlas 0.3.3 — validation
+
+PASS: Lua 5.1 compilation of every addon Lua module.
+PASS: 1030 historical coordinates, 34 zones, 20 chest variants; valid type/item references.
+PASS: zone/type/level/source filtering and manual map binding.
+PASS: personal observation merging and preservation of separate chest variants.
+PASS: unknown timers, manual estimates and availability-unknown wording after expiry.
+PASS: rejection of stale, distant, wrong-type, creature-source and duplicate loot snapshots.
+PASS: backup roundtrip (UTF-8 notes, item counts, estimates, bindings).
+PASS: invalid import rejection before any mutation; realm separation.
+PASS: mocked runtime events, UI construction, provider attachment and waypoints.
+PASS: XML parsing and MapCanvas script-ownership check; TOC file presence.
+PASS: actual Forever MapCanvas Lua code with simulated native frame/pool primitives:
+      pin acquisition, reuse, release, normalized positioning, click and hover handlers.
+PASS: Teldrassil resolves to reference area 141; 30 points, with optional grouping.
+PASS: refreshing the map and reopening it restores all 30 pins without accumulation.
+PASS: right-click waypoint uses the marker's map before opening the Atlas window.
+PASS: reference ID and historical timer survive export/import; 500 UTF-8 letters.
+PASS: recovery of stale personal ID sequence and rejection of mixed loot source GUIDs.
+PASS: restricted/erroring API reads fail safely.
+PASS: 500 malformed backup inputs rejected without exceptions or partial mutation.
+PASS: GUI method names audited against pinned Forever widget API documentation.
+PASS: actual Forever pin frame-level manager and WorldMap layer registration:
+      chest pins are above fog-of-war and map-exploration overlays.
+PASS: visibility regression fails when the old default pin layer is restored.
+PASS: Chests only hides quest/POI pins, retains artwork and optionally player/group.
+PASS: disabling focus restores its pins without clearing another suppressor's pins.
+PASS: late-created icons are suppressed; hiding chest pins yields zero chest icons.
+PASS: grouping preserves every exact spawn node; group selection and hover labels.
+PASS: actual Go-here button sets exact waypoint and opens navigation arrow.
+PASS: north/east/south/west compass math, character turning and map aspect ratio.
+PASS: cross-zone direction hidden; Stop clears only the owned native waypoint.
+PASS: navigation's content button reopens the correct target map and card.
+PASS: item search, searchable zone picker, favorites and SavedVariables settings restore.
+PASS: favorite backup roundtrip; unknown favorite rejected before mutation.
+PASS: safe item metadata retains icon/vendor price and rejects secret values in any slot.
+PASS: refreshing does not erase unsaved notes or timer edits.
+PASS: native Blizzard VignetteLoot atlas and TreasureChest_64 fallback; animated glint fade.
+PASS: individual-spawn defaults and one-time migration of existing grouped settings.
+PASS: every Teldrassil reference point has its own icon with no count in individual mode.
+PASS: minimap point bounds, round/square clipping, rotation and zoom-radius changes.
+PASS: minimap zone transitions, world-zone filter independence, show/hide and unavailable GPS.
+PASS: minimap hover, left-click exact detail, right-click exact waypoint and arrow.
+PASS: addon runtime text audited for remaining Norwegian; English README and attribution.
+PASS: bundled original sparkle/arrow files: uncompressed 64x64 RGBA TGA with 8-bit alpha.
+PASS: upstream files re-fetched from pinned commit and compared byte-for-byte with inputs.
+PASS: independent source audit of all 1030 coordinates, 20 variants, 3580 loot links,
+      1525 item names and historical respawn values; no mismatches or nonpositive loot links.
+PASS: screenshot item names traced to their specific historical chest variants.
+PASS: seven panels checked for control overlap and content outside parent bounds.
+PASS: diagnostic renders from actual Lua frame geometry with approximate text metrics.
+PASS: regression reproduces the old undersized loot frame; revised frame contains page controls.
+PASS: full Atlas/card footer anchors follow the loot panel bottom, preserving clear spacing.
+PASS: first/last page controls disabled correctly; empty searches retain layout.
+PASS: button labels bounded, single-line text bounded, full button text on hover.
+PASS: screen fit at 1280x720, 1920x1080 and 2560x1440.
+PASS: 334 historical rare NPCs, 423 positions, 37 outdoor zones and 5570 NPC-item links
+      independently checked against pinned source data; stable unique rare reference IDs.
+PASS: source files fetched from pinned commit and recorded with SHA256 hashes.
+PASS: rare world map and minimap markers, native kill atlas/fallback, hover and detail cards.
+PASS: Chests/Rares/Both category filtering, rare-name/type search and saved category preference.
+PASS: exact rare right-click waypoint/arrow and left-click NPC detail/loot.
+PASS: rare favorites survive backup/import; invalid rare favorites rejected before mutation.
+PASS: chest and NPC type namespaces do not collide; grouping never mixes the two categories.
+PASS: chest-only journal/loot-capture controls are disabled for rare reference locations.
+PASS: rare-only zones such as Winterspring resolve and can be manually bound.
+PASS: all 334 rare NPC summaries fit the reserved detail text area in diagnostic text metrics.
+
+
+PASS 0.3.1: dark slate/gold surfaces, bounded custom buttons, eight location cards and selected row highlights.
+PASS 0.3.1: highest known per-item vendor drop in every location row, loot card and navigation overlay.
+PASS 0.3.1: pinned top drop remains visible across loot pages, searches, quality filters and recorded-loot mode.
+PASS 0.3.1: vendor price wins over quality; unknown, invalid and zero prices handled explicitly.
+PASS 0.3.1: async higher-value items update the highlight and sort order; failed requests do not loop.
+PASS 0.3.1: uncached GetItemInfo reads avoid bypassing the six-per-0.2-second request throttle.
+PASS 0.3.1: GET_ITEM_INFO_RECEIVED and ITEM_DATA_LOAD_RESULT both supported; redraws batched.
+PASS 0.3.1: unknown personal chest types use recorded item values without stale contents caches.
+PASS 0.3.1: optional RareScanner integration creates a dedicated profile; original profiles stay intact.
+PASS 0.3.1: setup occurs once; later manual category/profile changes are preserved.
+PASS 0.3.1: RareScanner browser/route/cancel shortcuts are whitelisted and fail safely when absent.
+PASS 0.3.1: Atlas focus preserves active RareScanner entity, group and guide pins; other icons still suppressed.
+PASS 0.3.1: seven panels checked for containment, sibling overlap and screen fit at 720p/1080p/1440p.
+PASS 0.3.1: RareScanner Forever 1.60.1.b7 official ZIP, interface 16001; 164 Lua files compile and 39 XML files resolve.
+NOT VERIFIED: actual WoW rendering, live RareScanner scanning/model behavior or in-game pairing on this client.
+VALUE LIMIT: highest KNOWN vendor sell price per item, not AH value, drop probability or expected gold per chest.
+ROUTE LIMIT: /rs route visits rare markers; it does not prove a rare NPC's ordered patrol.
+
+Client Lua source: Gethe/wow-ui-source, branch forever,
+commit e3ecc27b64d30fdc735a3f6579b866858f9f9df1.
+Test runtime: Lua 5.1 (Lupa); native WoW frame primitives were simulated.
+
+Reproduce (Python with lupa installed, from addon directory):
+python tests/test_chestatlas.py
+python tools/fetch_validation_sources.py
+python tests/test_mapcanvas.py
+python tests/test_layout.py
+Layout diagnostic rendering requires Windows Arial and Python Pillow.
+The fixture downloader pins the client source above. It never runs in WoW.
+
+Historical reference respawn values: 300 and 7200 seconds.
+Forever respawn values: unverified. No live availability detection.
+Guard and patrol locations: unknown; no spawn location is certified mob-free.
+Rare records: historical Vanilla references, not live spawn detection or verified Forever loot.
+
+NOT VERIFIED: rendering this updated version in the real Forever client; live pin placement;
+API behavior on the user's build; complete autoloot capture; SavedVariables
+restoration across /reload, logout or client restart. Follow README.md.
+
+PASS 0.3.2: RareScanner owns rare rendering; saved Both/Rares never duplicate NPCs in Atlas map/minimap/list feeds.
+PASS 0.3.2: paired category and rare type shortcuts open RareScanner Explorer; paired type picker contains chests only.
+PASS 0.3.2: actual vendor LibStub/CallbackHandler/AceDB profile creation, copying and private profile callbacks.
+PASS 0.3.2: repair existing 0.3.1 companion container/event flags without changing other profiles or unrelated settings.
+PASS 0.3.2: delayed RareScanner availability repaired at PLAYER_ENTERING_WORLD; absence retains standalone rare support.
+PASS 0.3.2: focus enabled on migration and remains user-controlled afterwards; RS pins are retained.
+PASS 0.3.2: value, MapCanvas/minimap/navigation, filter, backup/fuzz and seven-panel layout regressions rerun.
+NOT VERIFIED 0.3.2: actual WoW rendering of both addons after reload. Reference data is unchanged.
+
+PASS 0.3.3: source completeness now includes all 143 eligible pfQuest container types, not just previously imported ordinary IDs.
+PASS 0.3.3: all 2,436 eligible Classic Era GatherMate2 Wowhead observations represented within 0.15% map distance, within the same family AND container category.
+PASS 0.3.3: all 1,030 original IDs/coordinates/timers retained byte-for-byte in Data.lua; 3,367 pfQuest and 576 deduplicated family observations appended.
+PASS 0.3.3: 4,973 historical records in 38 outdoor zones, including omitted Alterac Mountains.
+PASS 0.3.3: 1,489 ordinary/faction chest records; other supply, locked, event/key, quest/special and collectible categories are optional.
+PASS 0.3.3: every exact type's item links independently agree with positive pfQuest item-to-object associations and English names.
+PASS 0.3.3: all 576 family-only records have unknown exact variants, no guessed loot or timers, and no displayed pseudo-gameobject ID.
+PASS 0.3.3: quest clams do not deduplicate ordinary clams; categories persist; exact type selection works across categories; Reset filters restores treasure only.
+PASS 0.3.3: observed same-family loot source resolves a personal generic record; stale, wrong-family, creature/mixed and duplicate loot rejected.
+PASS 0.3.3: old and new favorite/reference backups roundtrip; new map pin details/waypoints use current Forever UiMapID, never Classic source map IDs.
+PASS 0.3.3: real MapCanvas/minimap geometry, RareScanner profile isolation/no duplicate NPC feed, item value, malformed backup and seven-panel layout regressions.
+PASS 0.3.3: detail summaries for every represented container type fit the reserved space, including lock/quest/event hints.
+AUDIT ONLY: reverse comparison checks ALL 1,057 ordinary/faction/strongbox outdoor CMaNGOS snapshot rows; 1,052 have a same-family pack point within 40 world yards; 5 position discrepancies remain documented.
+NOT VERIFIED: the island in the cropped screenshot, current Forever spawn presence, live respawns, opening requirements and actual WoW rendering after restart.
+FULL CLIENT RESTART REQUIRED: new CoverageData.lua must be indexed from the TOC.

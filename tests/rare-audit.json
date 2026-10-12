@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "rares": 334,
+  "coordinates": 423,
+  "lootLinks": 5570,
+  "zones": 37,
+  "sourceCommit": "104f35678ca39ab1fb78b655f815cc7016f5e0c8",
+  "sourceSHA256": {
+    "db/units.lua": "b8de09aa33fd4b16edb2287b8c4224c86e6ee420e717a4d428e2935c22c4a922",
+    "db/enUS/units.lua": "f2ae827b04668c0236919f702485038a4d56330be00652d7c2970dc7e27e2922",
+    "db/meta.lua": "0f6dfef398946112d8220688c29d33025aad02677b43e21e2387550d9f9e760e",
+    "db/items.lua": "b173e338ff04fdece3b4bfcbb1b66aff4bb9d23fa7a13890311ea2cbc447d808",
+    "db/enUS/items.lua": "98bbd02ed910f528f744162c9e0b993f04a0215e48afa88c78711b6f634f137d",
+    "db/enUS/zones.lua": "e22652ad92ebbf33c99f5e0b51ea08a0a3526d7e23813799f36aa68226782add"
+  },
+  "foreverServerValidation": false,
+  "rareClassification": "pfQuest meta.rares; source extractor selects rank 2 or 4"
+}

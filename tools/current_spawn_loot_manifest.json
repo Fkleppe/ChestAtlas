@@ -1,0 +1,10 @@
+{
+  "source": "cmangos/classic-db",
+  "commit": "ec4f596146be6467ea93c57397858e329e2db852",
+  "newExactTypes": 272,
+  "sourceAbsentTypes": [],
+  "itemLinks": 426,
+  "numericChanceLinks": 190,
+  "unknownChanceLinks": 236,
+  "moduleSHA256": "f0b49cabd2b010b4419622cf9f5c4301342925ab4d6dc475a6237db5a614336a"
+}

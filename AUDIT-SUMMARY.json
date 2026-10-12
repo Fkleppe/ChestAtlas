@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-08",
+  "locationsChecked": 10173,
+  "exactTypesChecked": 422,
+  "coordinateOrLootDisagreements": 0,
+  "counts": {
+    "exactReferences": 9597,
+    "bySource:pfQuest": 8945,
+    "category:treasure": 1518,
+    "withPossibleLoot": 10092,
+    "category:supplies": 2443,
+    "familyReferences": 576,
+    "bySource:wowhead-classic": 576,
+    "category:quest": 5170,
+    "bySource:vm-classic": 219,
+    "bySource:cm-classic": 433,
+    "withoutHistoricalItems": 81,
+    "category:lockpicking": 635,
+    "category:collectibles": 402,
+    "category:event": 5
+  },
+  "issues": [],
+  "scope": "Every distributed marker checked against its frozen primary coordinate source, exact source object loot links and historical coordinate projection. Family pools are possibilities; live Forever spawns and server loot are not verified. Historical missing item tables are reported rather than fabricated.",
+  "csv": "C:\\Users\\fklep\\Documents\\Codex\\2026-10-07\\jeg-t\\outputs\\ChestAtlas\\AUDIT-ALL-CHESTS.csv"
+}

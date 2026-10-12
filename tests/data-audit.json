@@ -1,0 +1,53 @@
+{
+  "status": "PASS",
+  "sourceCommit": "104f35678ca39ab1fb78b655f815cc7016f5e0c8",
+  "verifiedSourceSHA256": {
+    "db/objects.lua": "be4846e2f2049cafba7da5ed18d6422bde35ed0e6f6ac34cb1215c1bbafd306e",
+    "db/items.lua": "b173e338ff04fdece3b4bfcbb1b66aff4bb9d23fa7a13890311ea2cbc447d808",
+    "db/enUS/objects.lua": "2d22e4f71913a2a9f47fac23bb38129106e41646d00e2dac5611cf97bc327fe5",
+    "db/enUS/items.lua": "98bbd02ed910f528f744162c9e0b993f04a0215e48afa88c78711b6f634f137d",
+    "db/enUS/zones.lua": "e22652ad92ebbf33c99f5e0b51ea08a0a3526d7e23813799f36aa68226782add"
+  },
+  "coordinatesChecked": 1030,
+  "chestVariantsChecked": 20,
+  "lootLinksChecked": 3580,
+  "uniqueItemsChecked": 1525,
+  "zeroOrNegativeLootLinks": [],
+  "sourceCoordinateDuplicatesRemoved": 0,
+  "screenshotItemsMappedToVariants": {
+    "Battlecaller Gauntlets": [
+      153454,
+      153453,
+      153451
+    ],
+    "Blanchard's Stout": [
+      4149,
+      153454,
+      153462,
+      153453,
+      153451
+    ],
+    "Blue Sapphire": [
+      153454,
+      153453,
+      153451
+    ],
+    "Bonesnapper": [
+      153454,
+      153462,
+      153453,
+      153451
+    ],
+    "Cow King's Hide": [
+      153454,
+      153453,
+      153451
+    ],
+    "Dalewind Trousers": [
+      153454,
+      153453,
+      153451
+    ]
+  },
+  "foreverServerValidation": false
+}

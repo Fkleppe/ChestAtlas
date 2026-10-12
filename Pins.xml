@@ -1,0 +1,21 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/">
+  <Button name="ChestAtlasPinTemplate" virtual="true" enableMouse="true" mixin="MapCanvasPinMixin,ChestAtlasPinMixin">
+    <Size x="26" y="26"/>
+    <Layers>
+      <Layer level="BACKGROUND"><Texture parentKey="Glow" alphaMode="ADD"><Anchors><Anchor point="CENTER"/></Anchors></Texture></Layer>
+      <Layer level="ARTWORK"><Texture parentKey="Icon"><Anchors><Anchor point="TOPLEFT"/><Anchor point="BOTTOMRIGHT"/></Anchors></Texture></Layer>
+      <Layer level="OVERLAY">
+        <Texture parentKey="Sparkle" alphaMode="ADD"><Size x="14" y="14"/><Anchors><Anchor point="CENTER"/></Anchors></Texture>
+        <FontString parentKey="Count" inherits="GameFontNormalSmall"><Anchors><Anchor point="BOTTOMRIGHT" x="4" y="-2"/></Anchors><Shadow><Offset x="1" y="-1"/><Color r="0" g="0" b="0" a="1"/></Shadow></FontString>
+        <FontString parentKey="Star" inherits="GameFontNormal"><Anchors><Anchor point="TOPRIGHT" x="4" y="5"/></Anchors></FontString>
+        <FontString parentKey="Own" inherits="GameFontNormal"><Color r="0.3" g="1" b="0.5"/><Anchors><Anchor point="TOPLEFT" x="-3" y="3"/></Anchors></FontString>
+        <FontString parentKey="Label" inherits="GameFontNormalSmall">
+          <Size x="125" y="14"/>
+          <Anchors><Anchor point="TOP" relativePoint="BOTTOM" x="0" y="-2"/></Anchors>
+          <Shadow><Offset x="1" y="-1"/><Color r="0" g="0" b="0" a="1"/></Shadow>
+        </FontString>
+      </Layer>
+    </Layers>
+  </Button>
+  <Frame name="ChestAtlasFocusTemplate" virtual="true" mixin="ChestAtlasFocusMixin"/>
+</Ui>

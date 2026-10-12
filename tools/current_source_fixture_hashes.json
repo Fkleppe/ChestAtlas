@@ -1,0 +1,10 @@
+{
+  "cm-classicmangos.sqlite": "eda003464ed520425f5de31e356bb031ea4d2af462bd3c83b5bb60f98e65ea1c",
+  "db_enUS_items.lua": "98bbd02ed910f528f744162c9e0b993f04a0215e48afa88c78711b6f634f137d",
+  "db_enUS_zones.lua": "e22652ad92ebbf33c99f5e0b51ea08a0a3526d7e23813799f36aa68226782add",
+  "db_items.lua": "b173e338ff04fdece3b4bfcbb1b66aff4bb9d23fa7a13890311ea2cbc447d808",
+  "db_meta.lua": "0f6dfef398946112d8220688c29d33025aad02677b43e21e2387550d9f9e760e",
+  "db_objects.lua": "be4846e2f2049cafba7da5ed18d6422bde35ed0e6f6ac34cb1215c1bbafd306e",
+  "vm-mangos.sqlite": "e3e3a3e1b85f19fe4ad05755452d00f6187d1b86717ea1e1793c96172c77010a",
+  "worldmaparea.csv": "fc2a2a99e51d755036a0c45ff9e1833465efe7be878db4c5f96dc05b5b2b5ebc"
+}

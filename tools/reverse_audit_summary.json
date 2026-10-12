@@ -1,0 +1,134 @@
+{
+  "auditOnly": true,
+  "snapshot": "ec4f596146be6467ea93c57397858e329e2db852",
+  "allOutdoorSpawns": 1057,
+  "covered40yards": 1052,
+  "unmatched": 5,
+  "byFamily": {
+    "Alliance Chest": {
+      "total": 44,
+      "unmatched": 1
+    },
+    "Battered Chest": {
+      "total": 439,
+      "unmatched": 0
+    },
+    "Hidden Strongbox": {
+      "total": 16,
+      "unmatched": 0
+    },
+    "Horde Chest": {
+      "total": 3,
+      "unmatched": 0
+    },
+    "Large Mithril Bound Chest": {
+      "total": 3,
+      "unmatched": 0
+    },
+    "Large Solid Chest": {
+      "total": 3,
+      "unmatched": 0
+    },
+    "Solid Chest": {
+      "total": 549,
+      "unmatched": 4
+    }
+  },
+  "unmatchedRows": [
+    {
+      "id": 4149,
+      "name": "Solid Chest",
+      "guid": 56704,
+      "map": 0,
+      "worldX": -10954.7,
+      "worldY": -3695.79,
+      "nearestPackYards": 59.15,
+      "covered40yards": false,
+      "nearestZone": "Swamp of Sorrows",
+      "nearestPackXY": [
+        64.9,
+        83.5
+      ],
+      "auditProjectionXY": [
+        64.212,
+        87.228
+      ]
+    },
+    {
+      "id": 4149,
+      "name": "Solid Chest",
+      "guid": 55524,
+      "map": 0,
+      "worldX": -10963.1,
+      "worldY": -3677.28,
+      "nearestPackYards": 73.85,
+      "covered40yards": false,
+      "nearestZone": "Swamp of Sorrows",
+      "nearestPackXY": [
+        64.9,
+        83.5
+      ],
+      "auditProjectionXY": [
+        63.405,
+        87.778
+      ]
+    },
+    {
+      "id": 4149,
+      "name": "Solid Chest",
+      "guid": 55803,
+      "map": 1,
+      "worldX": -4583.68,
+      "worldY": -3553.67,
+      "nearestPackYards": 47.63,
+      "covered40yards": false,
+      "nearestZone": "Dustwallow Marsh",
+      "nearestPackXY": [
+        48.4,
+        73.7
+      ],
+      "auditProjectionXY": [
+        49.118,
+        72.867
+      ]
+    },
+    {
+      "id": 4149,
+      "name": "Solid Chest",
+      "guid": 85734,
+      "map": 1,
+      "worldX": -4466.14,
+      "worldY": -3984.56,
+      "nearestPackYards": 98.11,
+      "covered40yards": false,
+      "nearestZone": "Dustwallow Marsh",
+      "nearestPackXY": [
+        58.9,
+        68.0
+      ],
+      "auditProjectionXY": [
+        57.325,
+        69.509
+      ]
+    },
+    {
+      "id": 4096,
+      "name": "Alliance Chest",
+      "guid": 85830,
+      "map": 0,
+      "worldX": -1314.03,
+      "worldY": -1267.86,
+      "nearestPackYards": 47.62,
+      "covered40yards": false,
+      "nearestZone": "Arathi Highlands",
+      "nearestPackXY": [
+        10.0,
+        48.2
+      ],
+      "auditProjectionXY": [
+        11.144,
+        49.196
+      ]
+    }
+  ]
+}

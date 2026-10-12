@@ -1,0 +1,18 @@
+[
+  {
+    "name": "cm-current-sqlite.zip",
+    "sha256": "071bdfd864dfd75cb20fae1fb8e26a2c28ae0308ca0058aa691c30b74630d40c",
+    "assetID": 615443317,
+    "digest": "sha256:071bdfd864dfd75cb20fae1fb8e26a2c28ae0308ca0058aa691c30b74630d40c",
+    "url": "https://github.com/cmangos/classic-db/releases/download/latest/classic-sqlite-db.zip",
+    "updatedAt": "2026-10-06T12:22:41Z"
+  },
+  {
+    "name": "vm-current-sqlite.zip",
+    "sha256": "bb2f1dd69171043a52657574f54948fd30941530fdc6eec12bce62c655428501",
+    "assetID": 595362291,
+    "digest": "sha256:bb2f1dd69171043a52657574f54948fd30941530fdc6eec12bce62c655428501",
+    "url": "https://github.com/vmangos/core/releases/download/db_latest/db-sqlite-4641790.zip",
+    "updatedAt": "2026-09-28T12:29:03Z"
+  }
+]

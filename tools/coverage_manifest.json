@@ -1,0 +1,2107 @@
+{
+  "version": "0.3.3",
+  "baseLocations": 1030,
+  "pfQuestAdded": 3367,
+  "wowheadClassicAdded": 576,
+  "totalLocations": 4973,
+  "zones": 38,
+  "types": 161,
+  "wowheadCommit": "2a8840c4cfec43f85b87348839bbbb0c139f148a",
+  "wowheadSHA256": "e60be016eefc607b863072d30e1e283876787d3765d8ccb89cc500a1d57a3aeb",
+  "duplicateTolerancePercent": 0.15,
+  "genericLootPolicy": "family known; exact gameobject variant and loot unknown; no invented probabilities/timers",
+  "coverageSHA256": "f83036a65a01f3e99c228d803f552ce3d1fa23dcd602120b2a833f55cae120ae",
+  "byZone": {
+    "44": {
+      "name": "Redridge Mountains",
+      "before": 40,
+      "added": 163,
+      "after": 203
+    },
+    "40": {
+      "name": "Westfall",
+      "before": 41,
+      "added": 137,
+      "after": 178
+    },
+    "33": {
+      "name": "Stranglethorn Vale",
+      "before": 55,
+      "added": 232,
+      "after": 287
+    },
+    "12": {
+      "name": "Elwynn Forest",
+      "before": 46,
+      "added": 90,
+      "after": 136
+    },
+    "36": {
+      "name": "Alterac Mountains",
+      "before": 0,
+      "added": 171,
+      "after": 171
+    },
+    "130": {
+      "name": "Silverpine Forest",
+      "before": 36,
+      "added": 90,
+      "after": 126
+    },
+    "267": {
+      "name": "Hillsbrad Foothills",
+      "before": 18,
+      "added": 214,
+      "after": 232
+    },
+    "47": {
+      "name": "The Hinterlands",
+      "before": 29,
+      "added": 43,
+      "after": 72
+    },
+    "45": {
+      "name": "Arathi Highlands",
+      "before": 34,
+      "added": 106,
+      "after": 140
+    },
+    "11": {
+      "name": "Wetlands",
+      "before": 46,
+      "added": 225,
+      "after": 271
+    },
+    "141": {
+      "name": "Teldrassil",
+      "before": 30,
+      "added": 71,
+      "after": 101
+    },
+    "14": {
+      "name": "Durotar",
+      "before": 47,
+      "added": 134,
+      "after": 181
+    },
+    "17": {
+      "name": "The Barrens",
+      "before": 72,
+      "added": 366,
+      "after": 438
+    },
+    "15": {
+      "name": "Dustwallow Marsh",
+      "before": 27,
+      "added": 72,
+      "after": 99
+    },
+    "85": {
+      "name": "Tirisfal Glades",
+      "before": 21,
+      "added": 88,
+      "after": 109
+    },
+    "215": {
+      "name": "Mulgore",
+      "before": 34,
+      "added": 84,
+      "after": 118
+    },
+    "1": {
+      "name": "Dun Morogh",
+      "before": 32,
+      "added": 66,
+      "after": 98
+    },
+    "405": {
+      "name": "Desolace",
+      "before": 33,
+      "added": 75,
+      "after": 108
+    },
+    "28": {
+      "name": "Western Plaguelands",
+      "before": 23,
+      "added": 133,
+      "after": 156
+    },
+    "10": {
+      "name": "Duskwood",
+      "before": 46,
+      "added": 96,
+      "after": 142
+    },
+    "46": {
+      "name": "Burning Steppes",
+      "before": 24,
+      "added": 11,
+      "after": 35
+    },
+    "331": {
+      "name": "Ashenvale",
+      "before": 34,
+      "added": 179,
+      "after": 213
+    },
+    "406": {
+      "name": "Stonetalon Mountains",
+      "before": 24,
+      "added": 110,
+      "after": 134
+    },
+    "148": {
+      "name": "Darkshore",
+      "before": 31,
+      "added": 202,
+      "after": 233
+    },
+    "38": {
+      "name": "Loch Modan",
+      "before": 34,
+      "added": 79,
+      "after": 113
+    },
+    "3": {
+      "name": "Badlands",
+      "before": 12,
+      "added": 79,
+      "after": 91
+    },
+    "361": {
+      "name": "Felwood",
+      "before": 5,
+      "added": 34,
+      "after": 39
+    },
+    "8": {
+      "name": "Swamp of Sorrows",
+      "before": 22,
+      "added": 60,
+      "after": 82
+    },
+    "400": {
+      "name": "Thousand Needles",
+      "before": 18,
+      "added": 10,
+      "after": 28
+    },
+    "440": {
+      "name": "Tanaris",
+      "before": 26,
+      "added": 33,
+      "after": 59
+    },
+    "357": {
+      "name": "Feralas",
+      "before": 0,
+      "added": 7,
+      "after": 7
+    },
+    "490": {
+      "name": "Un'Goro Crater",
+      "before": 0,
+      "added": 192,
+      "after": 192
+    },
+    "1377": {
+      "name": "Silithus",
+      "before": 0,
+      "added": 2,
+      "after": 2
+    },
+    "139": {
+      "name": "Eastern Plaguelands",
+      "before": 24,
+      "added": 149,
+      "after": 173
+    },
+    "51": {
+      "name": "Searing Gorge",
+      "before": 15,
+      "added": 81,
+      "after": 96
+    },
+    "16": {
+      "name": "Azshara",
+      "before": 29,
+      "added": 56,
+      "after": 85
+    },
+    "4": {
+      "name": "Blasted Lands",
+      "before": 9,
+      "added": 2,
+      "after": 11
+    },
+    "618": {
+      "name": "Winterspring",
+      "before": 13,
+      "added": 1,
+      "after": 14
+    }
+  },
+  "byCategory": {
+    "treasure": 1489,
+    "supplies": 2196,
+    "quest": 299,
+    "lockpicking": 611,
+    "collectibles": 373,
+    "event": 5
+  },
+  "possibleItems": 1982,
+  "sourceObservationsChecked": 2436,
+  "pfQuestSourceCommit": "104f35678ca39ab1fb78b655f815cc7016f5e0c8",
+  "pfQuestSourceHashes": {
+    "db_objects.lua": "be4846e2f2049cafba7da5ed18d6422bde35ed0e6f6ac34cb1215c1bbafd306e",
+    "db_items.lua": "b173e338ff04fdece3b4bfcbb1b66aff4bb9d23fa7a13890311ea2cbc447d808",
+    "db_enUS_objects.lua": "2d22e4f71913a2a9f47fac23bb38129106e41646d00e2dac5611cf97bc327fe5",
+    "db_enUS_items.lua": "98bbd02ed910f528f744162c9e0b993f04a0215e48afa88c78711b6f634f137d",
+    "db_enUS_zones.lua": "e22652ad92ebbf33c99f5e0b51ea08a0a3526d7e23813799f36aa68226782add",
+    "db_meta.lua": "0f6dfef398946112d8220688c29d33025aad02677b43e21e2387550d9f9e760e"
+  },
+  "pfQuestObjectInventory": [
+    {
+      "id": 32,
+      "name": "Sunken Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 33,
+      "name": "Locked Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 35,
+      "name": "Captain's Footlocker",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 288,
+      "name": "Bookie Herod's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 1166,
+      "name": "Alexston's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 1560,
+      "name": "Storage Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 1562,
+      "name": "Marshal Haggard's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 1765,
+      "name": "Worn Wooden Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2039,
+      "name": "Hidden Strongbox",
+      "category": "lockpicking",
+      "sourceCoordinates": 26,
+      "eligibleCoordinates": 26,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2556,
+      "name": "Cortello's Treasure",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2716,
+      "name": "Trelane's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2717,
+      "name": "Trelane's Footlocker",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2718,
+      "name": "Trelane's Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2734,
+      "name": "Waterlogged Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2739,
+      "name": "Chest of the Black Feather",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2740,
+      "name": "Chest of the Raven Claw",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2741,
+      "name": "Chest of the Sky",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2742,
+      "name": "Chest of Nesting",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2744,
+      "name": "Giant Clam",
+      "category": "quest",
+      "sourceCoordinates": 80,
+      "eligibleCoordinates": 80,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2843,
+      "name": "Battered Chest",
+      "category": "treasure",
+      "sourceCoordinates": 25,
+      "eligibleCoordinates": 25,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2849,
+      "name": "Battered Chest",
+      "category": "treasure",
+      "sourceCoordinates": 109,
+      "eligibleCoordinates": 109,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2850,
+      "name": "Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 111,
+      "eligibleCoordinates": 111,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2852,
+      "name": "Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 83,
+      "eligibleCoordinates": 83,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2855,
+      "name": "Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 72,
+      "eligibleCoordinates": 72,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 2857,
+      "name": "Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 96,
+      "eligibleCoordinates": 96,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3239,
+      "name": "Benedict's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3642,
+      "name": "Kolkars' Booty",
+      "category": "event",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3643,
+      "name": "Old Footlocker",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3646,
+      "name": "General Twinbraid's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 2,
+      "eligibleCoordinates": 2,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3658,
+      "name": "Water Barrel",
+      "category": "supplies",
+      "sourceCoordinates": 263,
+      "eligibleCoordinates": 262,
+      "excludedAreas": [
+        1657
+      ],
+      "reason": "included"
+    },
+    {
+      "id": 3659,
+      "name": "Barrel of Melon Juice",
+      "category": "supplies",
+      "sourceCoordinates": 213,
+      "eligibleCoordinates": 213,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3660,
+      "name": "Armor Crate",
+      "category": "supplies",
+      "sourceCoordinates": 27,
+      "eligibleCoordinates": 27,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3661,
+      "name": "Weapon Crate",
+      "category": "supplies",
+      "sourceCoordinates": 27,
+      "eligibleCoordinates": 27,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3662,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 304,
+      "eligibleCoordinates": 237,
+      "excludedAreas": [
+        1497,
+        1519
+      ],
+      "reason": "included"
+    },
+    {
+      "id": 3689,
+      "name": "Weapon Crate",
+      "category": "supplies",
+      "sourceCoordinates": 39,
+      "eligibleCoordinates": 39,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3690,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 5,
+      "eligibleCoordinates": 5,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3691,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 3,
+      "eligibleCoordinates": 3,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3693,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 19,
+      "eligibleCoordinates": 19,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3694,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 20,
+      "eligibleCoordinates": 20,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3695,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 231,
+      "eligibleCoordinates": 231,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3702,
+      "name": "Armor Crate",
+      "category": "supplies",
+      "sourceCoordinates": 26,
+      "eligibleCoordinates": 26,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3703,
+      "name": "Armor Crate",
+      "category": "supplies",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 3704,
+      "name": "Weapon Crate",
+      "category": "supplies",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 3705,
+      "name": "Barrel of Milk",
+      "category": "supplies",
+      "sourceCoordinates": 340,
+      "eligibleCoordinates": 273,
+      "excludedAreas": [
+        1497,
+        1519
+      ],
+      "reason": "included"
+    },
+    {
+      "id": 3706,
+      "name": "Barrel of Sweet Nectar",
+      "category": "supplies",
+      "sourceCoordinates": 133,
+      "eligibleCoordinates": 133,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3707,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 156,
+      "eligibleCoordinates": 156,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3710,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 3714,
+      "name": "Alliance Strongbox",
+      "category": "lockpicking",
+      "sourceCoordinates": 7,
+      "eligibleCoordinates": 7,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3715,
+      "name": "Alliance Chest",
+      "category": "treasure",
+      "sourceCoordinates": 22,
+      "eligibleCoordinates": 22,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 3719,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 220,
+      "eligibleCoordinates": 219,
+      "excludedAreas": [
+        1657
+      ],
+      "reason": "included"
+    },
+    {
+      "id": 4095,
+      "name": "Alliance Strongbox",
+      "category": "lockpicking",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 4096,
+      "name": "Alliance Chest",
+      "category": "treasure",
+      "sourceCoordinates": 10,
+      "eligibleCoordinates": 10,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 4149,
+      "name": "Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 104,
+      "eligibleCoordinates": 104,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 13359,
+      "name": "Cat Figurine",
+      "category": "quest",
+      "sourceCoordinates": 27,
+      "eligibleCoordinates": 27,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 13949,
+      "name": "Pitted Iron Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 17155,
+      "name": "Defias Gunpowder",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 19017,
+      "name": "Giant Clam",
+      "category": "supplies",
+      "sourceCoordinates": 65,
+      "eligibleCoordinates": 65,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 19018,
+      "name": "Giant Clam",
+      "category": "supplies",
+      "sourceCoordinates": 38,
+      "eligibleCoordinates": 38,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 19019,
+      "name": "Box of Assorted Parts",
+      "category": "supplies",
+      "sourceCoordinates": 10,
+      "eligibleCoordinates": 10,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 19020,
+      "name": "Box of Assorted Parts",
+      "category": "supplies",
+      "sourceCoordinates": 8,
+      "eligibleCoordinates": 8,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 19021,
+      "name": "Rusty Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 19022,
+      "name": "Worn Chest",
+      "category": "quest",
+      "sourceCoordinates": 2,
+      "eligibleCoordinates": 2,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 19906,
+      "name": "Mok'Morokk's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 2,
+      "eligibleCoordinates": 2,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 20691,
+      "name": "Cozzle's Footlocker",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 20925,
+      "name": "Captain's Footlocker",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 21052,
+      "name": "Defias Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 28024,
+      "name": "Caravan Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 32569,
+      "name": "Galen's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 35251,
+      "name": "Karnitol's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 37098,
+      "name": "Perrine's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 50961,
+      "name": "Malem Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 58369,
+      "name": "Stolen Iron Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 74447,
+      "name": "Large Iron Bound Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 74448,
+      "name": "Large Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 75293,
+      "name": "Large Battered Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 75295,
+      "name": "Large Iron Bound Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 75296,
+      "name": "Large Iron Bound Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 75297,
+      "name": "Large Iron Bound Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 75298,
+      "name": "Large Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 75299,
+      "name": "Large Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 75300,
+      "name": "Large Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 85562,
+      "name": "Ironband's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 85563,
+      "name": "Dead-tooth's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 92423,
+      "name": "Damaged Chest",
+      "category": "quest",
+      "sourceCoordinates": 2,
+      "eligibleCoordinates": 2,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 103815,
+      "name": "Ambermill Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 2,
+      "eligibleCoordinates": 2,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 103821,
+      "name": "Doan's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 105174,
+      "name": "Chest of Containment Coffers",
+      "category": "quest",
+      "sourceCoordinates": 8,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [
+        1497,
+        1519
+      ],
+      "reason": "included"
+    },
+    {
+      "id": 105176,
+      "name": "Venture Co. Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 105570,
+      "name": "Alliance Strongbox",
+      "category": "lockpicking",
+      "sourceCoordinates": 13,
+      "eligibleCoordinates": 13,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 105578,
+      "name": "Horde Chest",
+      "category": "treasure",
+      "sourceCoordinates": 4,
+      "eligibleCoordinates": 4,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 105579,
+      "name": "Alliance Chest",
+      "category": "treasure",
+      "sourceCoordinates": 17,
+      "eligibleCoordinates": 17,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 105581,
+      "name": "Alliance Chest",
+      "category": "treasure",
+      "sourceCoordinates": 4,
+      "eligibleCoordinates": 4,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 106318,
+      "name": "Battered Chest",
+      "category": "treasure",
+      "sourceCoordinates": 201,
+      "eligibleCoordinates": 201,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 106319,
+      "name": "Battered Chest",
+      "category": "treasure",
+      "sourceCoordinates": 118,
+      "eligibleCoordinates": 118,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 111095,
+      "name": "Alliance Chest",
+      "category": "treasure",
+      "sourceCoordinates": 27,
+      "eligibleCoordinates": 27,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 112948,
+      "name": "Intrepid's Locked Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 121264,
+      "name": "Lucius's Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 123214,
+      "name": "Duskwood Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 123329,
+      "name": "Baelog's Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 123330,
+      "name": "Buccaneer's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 4,
+      "eligibleCoordinates": 4,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 123331,
+      "name": "Buccaneer's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 4,
+      "eligibleCoordinates": 4,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 123332,
+      "name": "Buccaneer's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 4,
+      "eligibleCoordinates": 4,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 123333,
+      "name": "Buccaneer's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 4,
+      "eligibleCoordinates": 4,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 124072,
+      "name": "Duskwood Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 124388,
+      "name": "Garrett Family Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 124389,
+      "name": "Krom Stoutarm's Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 126260,
+      "name": "Ancient Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 129127,
+      "name": "Gallywix's Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 130126,
+      "name": "Gallywix's Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 131978,
+      "name": "Large Mithril Bound Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 131979,
+      "name": "Large Darkwood Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 141596,
+      "name": "Witch Doctor's Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 141979,
+      "name": "Ancient Treasure",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 141980,
+      "name": "Spectral Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 141981,
+      "name": "Spectral Lockbox Particles",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 142184,
+      "name": "Captain's Chest",
+      "category": "event",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 142191,
+      "name": "Horde Supply Crate",
+      "category": "supplies",
+      "sourceCoordinates": 10,
+      "eligibleCoordinates": 10,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 142194,
+      "name": "Pirate's Treasure!",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 143980,
+      "name": "Gordunni Scroll",
+      "category": "quest",
+      "sourceCoordinates": 6,
+      "eligibleCoordinates": 6,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 144054,
+      "name": "Shay's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 144111,
+      "name": "Smite's Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 149036,
+      "name": "Marvon's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 152608,
+      "name": "Kolkar's Booty",
+      "category": "event",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 152618,
+      "name": "Kolkar's Booty",
+      "category": "event",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 153451,
+      "name": "Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 52,
+      "eligibleCoordinates": 52,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 153453,
+      "name": "Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 57,
+      "eligibleCoordinates": 57,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 153454,
+      "name": "Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 28,
+      "eligibleCoordinates": 28,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 153462,
+      "name": "Large Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 153463,
+      "name": "Large Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 3,
+      "eligibleCoordinates": 3,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 153464,
+      "name": "Large Solid Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 153468,
+      "name": "Large Mithril Bound Chest",
+      "category": "treasure",
+      "sourceCoordinates": 3,
+      "eligibleCoordinates": 3,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 153469,
+      "name": "Large Mithril Bound Chest",
+      "category": "treasure",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 153470,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 45,
+      "eligibleCoordinates": 45,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 153471,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 23,
+      "eligibleCoordinates": 23,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 153472,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 28,
+      "eligibleCoordinates": 28,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 153473,
+      "name": "Food Crate",
+      "category": "supplies",
+      "sourceCoordinates": 16,
+      "eligibleCoordinates": 16,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 157936,
+      "name": "Un'Goro Dirt Pile",
+      "category": "collectibles",
+      "sourceCoordinates": 82,
+      "eligibleCoordinates": 82,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 164910,
+      "name": "Ornate Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 164958,
+      "name": "Bloodpetal Sprout",
+      "category": "collectibles",
+      "sourceCoordinates": 75,
+      "eligibleCoordinates": 75,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 169243,
+      "name": "Chest of The Seven",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 175165,
+      "name": "Silver Dawning's Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 175166,
+      "name": "Mist Veil's Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 175802,
+      "name": "Small Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 20,
+      "eligibleCoordinates": 20,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 176112,
+      "name": "Malor's Strongbox",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 176188,
+      "name": "Ritual Candle",
+      "category": "quest",
+      "sourceCoordinates": 13,
+      "eligibleCoordinates": 13,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 176213,
+      "name": "Blood of Heroes",
+      "category": "collectibles",
+      "sourceCoordinates": 118,
+      "eligibleCoordinates": 118,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 176224,
+      "name": "Supply Crate",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 176225,
+      "name": "Arko'niran's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 176231,
+      "name": "Proudmore's Treasure",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 176344,
+      "name": "Document Chest",
+      "category": "quest",
+      "sourceCoordinates": 4,
+      "eligibleCoordinates": 4,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 176634,
+      "name": "Kerlonian's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 176944,
+      "name": "Old Treasure Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 177544,
+      "name": "Joseph's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 177784,
+      "name": "Giant Softshell Clam",
+      "category": "quest",
+      "sourceCoordinates": 25,
+      "eligibleCoordinates": 25,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 177786,
+      "name": "Rackmore's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 177790,
+      "name": "Strange Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 177792,
+      "name": "Strange Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 177794,
+      "name": "Strange Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 177844,
+      "name": "Strange Lockbox",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 178084,
+      "name": "Felix's Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 178144,
+      "name": "Troll Chest",
+      "category": "quest",
+      "sourceCoordinates": 42,
+      "eligibleCoordinates": 42,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 178244,
+      "name": "Practice Lockbox",
+      "category": "lockpicking",
+      "sourceCoordinates": 5,
+      "eligibleCoordinates": 5,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 178245,
+      "name": "Practice Lockbox",
+      "category": "lockpicking",
+      "sourceCoordinates": 5,
+      "eligibleCoordinates": 5,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 178246,
+      "name": "Practice Lockbox",
+      "category": "lockpicking",
+      "sourceCoordinates": 5,
+      "eligibleCoordinates": 5,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 178442,
+      "name": "Horde Supply Crate",
+      "category": "supplies",
+      "sourceCoordinates": 5,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [
+        2597
+      ],
+      "reason": "no supported outdoor coordinates"
+    },
+    {
+      "id": 178464,
+      "name": "Dark Cleric Salem's Chest",
+      "category": "quest",
+      "sourceCoordinates": 2,
+      "eligibleCoordinates": 2,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 178504,
+      "name": "Stolen Chest",
+      "category": "quest",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179345,
+      "name": "Deeprun Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 179486,
+      "name": "Battered Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 110,
+      "eligibleCoordinates": 110,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179487,
+      "name": "Waterlogged Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 65,
+      "eligibleCoordinates": 65,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179488,
+      "name": "Battered Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 49,
+      "eligibleCoordinates": 49,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179489,
+      "name": "Waterlogged Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 21,
+      "eligibleCoordinates": 21,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179490,
+      "name": "Battered Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 16,
+      "eligibleCoordinates": 16,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179491,
+      "name": "Waterlogged Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 16,
+      "eligibleCoordinates": 16,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179492,
+      "name": "Dented Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 13,
+      "eligibleCoordinates": 13,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179493,
+      "name": "Mossy Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 40,
+      "eligibleCoordinates": 40,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179494,
+      "name": "Dented Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 32,
+      "eligibleCoordinates": 32,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179496,
+      "name": "Dented Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 48,
+      "eligibleCoordinates": 48,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179497,
+      "name": "Mossy Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 42,
+      "eligibleCoordinates": 42,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179498,
+      "name": "Scarlet Footlocker",
+      "category": "lockpicking",
+      "sourceCoordinates": 26,
+      "eligibleCoordinates": 26,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179516,
+      "name": "Fengus's Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 179517,
+      "name": "Treasure of the Shen'dralar",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 179528,
+      "name": "Warpwood Pod",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 179545,
+      "name": "The Prince's Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 179563,
+      "name": "Prince's Chest Aura",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 179564,
+      "name": "Gordok Tribute",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 179697,
+      "name": "Arena Treasure Chest",
+      "category": "event",
+      "sourceCoordinates": 1,
+      "eligibleCoordinates": 1,
+      "excludedAreas": [],
+      "reason": "included"
+    },
+    {
+      "id": 179703,
+      "name": "Cache of the Firelord",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 180024,
+      "name": "Mysterious Deadmines Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 180055,
+      "name": "Mysterious Wailing Caverns Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 180228,
+      "name": "Jinxed Hoodoo Pile",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 180229,
+      "name": "Jinxed Hoodoo Pile",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 180392,
+      "name": "Full Jug",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 180653,
+      "name": "Treasure Marker",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 181074,
+      "name": "Arena Spoils",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 181083,
+      "name": "Sothos and Jarien's Heirlooms",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 181366,
+      "name": "Four Horsemen Chest",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 300400,
+      "name": "Gordok Tribute",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 300401,
+      "name": "Gordok Tribute",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 300402,
+      "name": "Gordok Tribute",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 300403,
+      "name": "Gordok Tribute",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 300404,
+      "name": "Gordok Tribute",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    },
+    {
+      "id": 300405,
+      "name": "Gordok Tribute",
+      "category": "quest",
+      "sourceCoordinates": 0,
+      "eligibleCoordinates": 0,
+      "excludedAreas": [],
+      "reason": "source has no coordinates"
+    }
+  ]
+}
