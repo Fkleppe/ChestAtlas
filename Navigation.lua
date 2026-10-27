@@ -4,10 +4,17 @@ function A.NavigationVector(px,py,tx,ty,width,height,facing)
   local dx,dy=(tx-px)*width,(ty-py)*height
   return math.atan2(-dx,-dy)-facing,math.sqrt(dx*dx+dy*dy)
 end
-function A.UpdateNavigation()
+local shownGoal,shownIndex,shownSkipped,shownRoute,textAge
+function A.UpdateNavigation(force)
   if not nav or not A.navigation then return end
   local goal=A.navigation
   local route=A.chestRoute
+  textAge=(textAge or 0)+1
+  local fresh=force or textAge>=10 or shownGoal~=goal or shownRoute~=route
+    or (route and (shownIndex~=route.index or shownSkipped~=route.skipped))
+  if fresh then
+  textAge,shownGoal,shownRoute=0,goal,route
+  shownIndex,shownSkipped=route and route.index,route and route.skipped
   nav.progress:SetText(route and ("CHEST ROUTE • "..route.index.." / "..#route.nodes.." • skipped "..route.skipped) or "CHEST ATLAS • NAVIGATION")
   nav.next:SetShown(route~=nil);nav.skip:SetShown(route~=nil)
   nav.stop:SetText(route and "Stop route" or "Stop arrow")
@@ -18,6 +25,7 @@ function A.UpdateNavigation()
     nav.best.icon:SetTexture(best.item and best.item.icon or 134400)
     nav.best.name:SetText(best.item and best.item.name or (best.total>0 and "Vendor value unknown" or "No known loot"));A.Widgets.ItemColor(nav.best.name,best.item)
     nav.best.meta:SetText(best.item and (A.ShortMoney(best.item.price).." each • "..A.ChanceText(goal.node,best.item.id)) or "Possible loot • vendor value unknown")
+  end
   end
   local map,x,y=A.PlayerPosition()
   local facing=A.Safe(GetPlayerFacing)
@@ -76,7 +84,7 @@ function A.StartNavigation(n,mapID,routeStep)
   if not nav then createNavigation() end
   local info=A.MapInfo(mapID)
   A.navigation={node=n,mapID=mapID,area=A.ResolveArea(mapID,info and info.name)}
-  nav:Show();A.UpdateNavigation()
+  nav:Show();A.UpdateNavigation(true)
   if A.RefreshMapUI then A.RefreshMapUI()end
   if A.RefreshUI then A.RefreshUI()end
 end

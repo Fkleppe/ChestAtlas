@@ -13,7 +13,7 @@ function A.MinimapPoint(dx,dy,radius,width,height,facing,shape,iconSize)
   return x,y
 end
 local function hidePins()
-  for _,pin in ipairs(pins) do pin:Hide() end
+  for _,pin in ipairs(pins) do pin:Hide();pin.sx=nil end
   A.minimapPinCount=0
 end
 local function createPin()
@@ -21,8 +21,6 @@ local function createPin()
   pin:SetFrameStrata("HIGH");pin:SetFrameLevel(Minimap:GetFrameLevel()+20)
   pin:RegisterForClicks("LeftButtonUp","RightButtonUp")
   pin.Icon=pin:CreateTexture(nil,"ARTWORK");pin.Icon:SetAllPoints()
-  pin.Glow=pin:CreateTexture(nil,"BACKGROUND");pin.Glow:SetPoint("CENTER");pin.Glow:SetBlendMode("ADD")
-  pin.Sparkle=pin:CreateTexture(nil,"OVERLAY");pin.Sparkle:SetPoint("CENTER");pin.Sparkle:SetBlendMode("ADD")
   local function text(key,point,x,y,color)
     local f=pin:CreateFontString(nil,"OVERLAY","GameFontNormalSmall")
     f:SetPoint(point,x,y);f:SetShadowOffset(1,-1);f:SetShadowColor(0,0,0,1)
@@ -34,7 +32,6 @@ local function createPin()
   function pin:SetPosition(x,y)self.normalizedX,self.normalizedY=x,y end
   pin:SetScript("OnEnter",ChestAtlasPinMixin.OnMouseEnter)
   pin:SetScript("OnLeave",ChestAtlasPinMixin.OnMouseLeave)
-  pin:SetScript("OnUpdate",A.UpdateShimmer)
   pin:SetScript("OnClick",function(self,button)
     if button=="RightButton" then A.Waypoint(self.node,self.mapID)
     else
@@ -67,7 +64,9 @@ function A.UpdateMinimap(force)
   local w,h=Minimap:GetWidth(),Minimap:GetHeight()
   local size=math.max(16,A.settings.iconSize-6)
   local shape=A.Safe(GetMinimapShape) or "ROUND"
-  local visible={}
+  local visible=A.minimapVisible or {}
+  A.minimapVisible=visible
+  for i=#visible,1,-1 do visible[i]=nil end
   for _,n in ipairs(candidates) do
     local sx,sy=A.MinimapPoint((n.x-x)*width,(n.y-y)*height,radius,w,h,angle,shape,size)
     if sx then visible[#visible+1]=n end
@@ -79,17 +78,23 @@ function A.UpdateMinimap(force)
     if sx then
       count=count+1
       local pin=pins[count] or createPin()
-      local keys={};for _,n in ipairs(g.nodes)do keys[#keys+1]=n.id end
-      local signature=table.concat(keys,"|")
-      if force or pin.node~=g.nodes[1] or pin.signature~=signature or pin.mapID~=map then
+      -- Same nodes as last time (in order)? Then the pin's look is still right.
+      local same=not force and pin.node==g.nodes[1] and pin.mapID==map and pin.shownNodes and #pin.shownNodes==#g.nodes
+      if same then for i,n in ipairs(g.nodes) do if pin.shownNodes[i]~=n then same=false;break end end end
+      if not same then
         ChestAtlasPinMixin.OnAcquired(pin,g.nodes[1],A.minimapArea,g,size)
-        pin.signature=signature
+        pin.shownNodes=pin.shownNodes or {}
+        for i=#pin.shownNodes,1,-1 do pin.shownNodes[i]=nil end
+        for i,n in ipairs(g.nodes) do pin.shownNodes[i]=n end
       end
       pin.group,pin.mapID=g,map
-      pin:ClearAllPoints();pin:SetPoint("CENTER",Minimap,"CENTER",sx,sy);pin:Show()
+      if pin.sx~=sx or pin.sy~=sy or not pin:IsShown() then
+        pin:ClearAllPoints();pin:SetPoint("CENTER",Minimap,"CENTER",sx,sy);pin.sx,pin.sy=sx,sy
+      end
+      pin:Show()
     end
   end
-  for i=count+1,#pins do pins[i]:Hide() end
+  for i=count+1,#pins do pins[i]:Hide();pins[i].sx=nil end
   A.minimapPinCount,A.minimapStatus=count,"Ready"
 end
 function A.InitMinimap()

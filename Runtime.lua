@@ -5,13 +5,17 @@ function A.Print(text)
   if DEFAULT_CHAT_FRAME then DEFAULT_CHAT_FRAME:AddMessage("|cffffd36aChest Atlas:|r "..text) end
 end
 function A.Now() return GetServerTime and GetServerTime() or time() end
+-- Called many times a second (minimap, arrow): no closure or table per call.
+local function safeResult(ok,...)
+  if not ok then return nil end
+  if issecretvalue then
+    for i=1,select('#',...) do if issecretvalue((select(i,...))) then return nil end end
+  end
+  return ...
+end
 function A.Safe(fn, ...)
   if type(fn) ~= "function" then return nil end
-  local function pack(...)return {n=select('#',...),...}end
-  local values=pack(pcall(fn,...))
-  if not values[1] then return nil end
-  for i=2,values.n do if issecretvalue and issecretvalue(values[i]) then return nil end end
-  return unpack(values,2,values.n)
+  return safeResult(pcall(fn,...))
 end
 function A.PlayerPosition()
   if InCombatLockdown and InCombatLockdown() then return nil end
@@ -50,7 +54,8 @@ end
 function A.Refresh()
   if A.provider then A.provider:RefreshAllData() end
   if A.RefreshUI then A.RefreshUI() end
-  if A.RefreshMapUI then A.RefreshMapUI() end
+  -- With a provider, RefreshAllData has just refreshed the map panel.
+  if A.RefreshMapUI and not A.provider then A.RefreshMapUI() end
   if A.UpdateMinimap then A.UpdateMinimap(true) end
   if A.RefreshInstances then A.RefreshInstances() end
 end
@@ -203,7 +208,11 @@ end
 
 local frame=CreateFrame("Frame")
 A.events=frame
-for _,event in ipairs({"ADDON_LOADED","PLAYER_LOGIN","LOOT_READY","LOOT_OPENED","LOOT_CLOSED","PLAYER_ENTERING_WORLD","ZONE_CHANGED_NEW_AREA","GET_ITEM_INFO_RECEIVED","ITEM_DATA_LOAD_RESULT","UNIT_SPELLCAST_SENT","UNIT_SPELLCAST_SUCCEEDED"}) do pcall(frame.RegisterEvent,frame,event) end
+for _,event in ipairs({"ADDON_LOADED","PLAYER_LOGIN","LOOT_READY","LOOT_OPENED","LOOT_CLOSED","PLAYER_ENTERING_WORLD","ZONE_CHANGED_NEW_AREA","GET_ITEM_INFO_RECEIVED","ITEM_DATA_LOAD_RESULT"}) do pcall(frame.RegisterEvent,frame,event) end
+-- Only the player's casts matter; without RegisterUnitEvent, every unit's casts arrive.
+for _,event in ipairs({"UNIT_SPELLCAST_SENT","UNIT_SPELLCAST_SUCCEEDED"}) do
+  if not (frame.RegisterUnitEvent and pcall(frame.RegisterUnitEvent,frame,event,"player")) then pcall(frame.RegisterEvent,frame,event) end
+end
 if GameTooltip and GameTooltip.HookScript then
   GameTooltip:HookScript("OnShow",function(tip)
     -- World objects use the default anchor on UIParent and carry no unit.
@@ -249,29 +258,11 @@ end)
 
 -- Pin templates use the same MapCanvas mechanism as Blizzard's own providers.
 ChestAtlasPinMixin={}
-function A.UpdateShimmer(pin,dt)
-  pin.shimmerTime=(pin.shimmerTime or 0)+dt
-  pin.shimmerTick=(pin.shimmerTick or 0)+dt
-  if pin.shimmerTick<0.05 then return end
-  pin.shimmerTick=0
-  local t=(pin.shimmerTime+(pin.shimmerPhase or 0))%3.6
-  local pulse=t<1 and math.sin(t*math.pi) or 0
-  pin.Sparkle:SetAlpha(pulse*0.95)
-  pin.Glow:SetAlpha(0.08+pulse*0.16)
-  if pulse>0 then
-    local size=pin.iconSize or A.settings.iconSize
-    pin.Sparkle:ClearAllPoints()
-    pin.Sparkle:SetPoint("CENTER",pin,"CENTER",size*(t-0.5)*0.6,size*(0.05+t*0.18))
-    local sparkleSize=(8+8*pulse)*(pin.iconScale or 1)
-    pin.Sparkle:SetSize(sparkleSize,sparkleSize)
-  end
-end
 function ChestAtlasPinMixin:OnLoad()
   -- Default pins are below fog-of-war and exploration overlays on WorldMap.
   self:UseFrameLevelType("PIN_FRAME_LEVEL_CHESTATLAS")
   self:SetSize(13,13)
   self:RegisterForClicks("LeftButtonUp","RightButtonUp")
-  self:SetScript("OnUpdate",A.UpdateShimmer)
 end
 function ChestAtlasPinMixin:OnAcquired(node,areaID,group,iconSize)
   self.node,self.areaID=node,areaID
@@ -282,25 +273,16 @@ function ChestAtlasPinMixin:OnAcquired(node,areaID,group,iconSize)
   self:SetSize(self.iconSize,self.iconSize)
   A.ApplyLocationIcon(self.Icon,node)
   self.Icon:SetVertexColor(1,1,1)
-  A.ApplyLocationIcon(self.Glow,node)
-  self.Glow:SetSize(self.iconSize+6*self.iconScale,self.iconSize+6*self.iconScale)
-  self.Glow:SetVertexColor(1,0.83,0.38);self.Glow:SetAlpha(0.08)
-  self.Sparkle:SetTexture(A.sparklePath);self.Sparkle:SetAlpha(0)
-  self.shimmerTime,self.shimmerTick,self.shimmerPhase=0,0,(node.x*17+node.y*31)%3.6
   self.Label:SetText(A.TypeName(node.typeID))
   self.Label:SetTextColor(1,0.88,0.5)
-  if node.rare then self.Label:SetTextColor(0.8,0.85,1);self.Glow:SetVertexColor(0.6,0.7,1)end
+  if node.rare then self.Label:SetTextColor(0.8,0.85,1)end
   self.Label:SetShown(A.settings.labels)
   self.Count:SetText(#self.group.nodes>1 and tostring(#self.group.nodes) or "")
   local favorite=false
   for _,n in ipairs(self.group.nodes) do favorite=favorite or A.IsFavorite(n) end
   self.Star:SetText(favorite and "*" or "")
   self.Own:SetText(self.group.own and "+" or "")
-  if not node.rare then
-    local status,_,colour=A.LocationStatus(node)
-    self.Own:SetText(status=="looted" and "L" or status=="seen" and "S" or "")
-    self.Own:SetTextColor(unpack(colour));self.Glow:SetVertexColor(unpack(colour))
-  end
+  if not node.rare then self.Own:SetText("") end
   self:SetAlpha(1)
   self:SetPosition(self.group.x,self.group.y)
 end
@@ -336,8 +318,8 @@ function ChestAtlasFocusMixin:OnLoad()
 end
 function ChestAtlasFocusMixin:OnAcquired()self:SetPosition(0,0);self:SetAlpha(0)end
 function ChestAtlasFocusMixin:IsPinSuppressor()return true end
-function ChestAtlasFocusMixin:ShouldSuppressPin(pin)
-  local name=pin.pinTemplate or ""
+local suppressCache,suppressFocus,suppressKeep,suppressCompanion={},nil,nil,nil
+local function shouldSuppress(name)
   if not A.settings.focus or name:find("ChestAtlas",1,true) then return false end
   if A.CompanionActive and A.CompanionActive() and (name=="RSEntityPinTemplate" or name=="RSGroupPinTemplate" or name=="RSGuideTemplate" or name=="RSOverlayTemplate") then return false end
   -- Keep map artwork, area shading and the player's optional position frame.
@@ -345,13 +327,26 @@ function ChestAtlasFocusMixin:ShouldSuppressPin(pin)
   if A.settings.keepPlayer and name=="GroupMembersPinTemplate" then return false end
   return true
 end
+function ChestAtlasFocusMixin:ShouldSuppressPin(pin)
+  local name=pin.pinTemplate or ""
+  local companion=A.CompanionActive and A.CompanionActive() or false
+  if suppressFocus~=A.settings.focus or suppressKeep~=A.settings.keepPlayer or suppressCompanion~=companion then
+    suppressCache,suppressFocus,suppressKeep,suppressCompanion={},A.settings.focus,A.settings.keepPlayer,companion
+  end
+  local answer=suppressCache[name]
+  if answer==nil then answer=shouldSuppress(name);suppressCache[name]=answer end
+  return answer
+end
 function ChestAtlasFocusMixin:TrackSuppressedPin(pin)self.tracked[#self.tracked+1]=pin end
 function ChestAtlasFocusMixin:ResetSuppression()
   for _,pin in ipairs(self.tracked or {}) do if pin:GetPinSuppressor()==self then pin:ClearSuppression() end end
   self.tracked={}
 end
 function ChestAtlasFocusMixin:FinalizeSuppression()end
-function ChestAtlasFocusMixin:OnReleased()self:ResetSuppression();MapCanvasPinMixin.OnReleased(self)end
+function ChestAtlasFocusMixin:OnReleased()
+  self:ResetSuppression()
+  if MapCanvasPinMixin and MapCanvasPinMixin.OnReleased then MapCanvasPinMixin.OnReleased(self) end
+end
 function A.AttachMap()
   if A.provider or not WorldMapFrame or not WorldMapFrame.AddDataProvider or not MapCanvasDataProviderMixin then return end
   local levels=WorldMapFrame.GetPinFrameLevelsManager and WorldMapFrame:GetPinFrameLevelsManager()

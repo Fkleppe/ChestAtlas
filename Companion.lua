@@ -8,10 +8,22 @@ function A.GetRareScanner()
   local found,addon=pcall(lib.GetAddon,lib,"RareScanner",true)
   if found and addon and addon.db and addon.db.profile then return addon end
 end
-function A.CompanionActive()return A.GetRareScanner()~=nil end
+-- Asked for every map pin while focus mode is on; an addon that has loaded stays loaded.
+local companionFound=false
+function A.CompanionActive()
+  companionFound=companionFound or A.GetRareScanner()~=nil
+  return companionFound
+end
 function A.SetupRareScanner()
   local rs=A.GetRareScanner()
   if not rs or not A.settings then return false end
+  -- Chests belong to Chest Atlas. RareScanner profiles are per character, so turn its
+  -- container scanning, map icons and alert button off in whichever profile is active.
+  local active=rs.db.profile
+  for _,key in ipairs({"general","map","display"})do
+    if type(active[key])~="table" then active[key]={}end
+  end
+  active.general.scanContainers=false;active.map.displayContainerIcons=false;active.display.displayButtonContainers=false
   if A.settings.rareScannerPairVersion==2 then return true end
   local db=rs.db
   if not db.SetProfile or not db.GetCurrentProfile or not db.GetProfiles or not db.CopyProfile then return false end

@@ -56,9 +56,6 @@ assert(pin.frameLevel>levels:GetValidFrameLevel("PIN_FRAME_LEVEL_FOG_OF_WAR"),"C
 assert(pin.frameLevel>levels:GetValidFrameLevel("PIN_FRAME_LEVEL_MAP_EXPLORATION"),"Chest hidden under exploration")
 assert(pin:GetFrameLevelType()=="PIN_FRAME_LEVEL_CHESTATLAS")
 assert(pin.scripts.OnEnter and pin.scripts.OnMouseUp,"MapCanvas handlers missing")
-pin.shimmerTime=0;pin.shimmerPhase=0;pin.scripts.OnUpdate(pin,0.5)
-assert(pin.Sparkle.alpha>0.9 and pin.Glow.alpha>0.2,"Shimmer did not light up")
-pin.scripts.OnUpdate(pin,1);assert(pin.Sparkle.alpha==0,"Shimmer did not fade out")
 C_Texture={GetAtlasInfo=function(name)return name=="VignetteLoot" and {} end}
 A.ApplyChestIcon(pin.Icon);assert(pin.Icon.atlas=="VignetteLoot","Wrong native chest atlas")
 C_Texture=nil

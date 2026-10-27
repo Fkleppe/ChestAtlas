@@ -44,6 +44,10 @@ function methods:SetVertexColor(...)self.vertexColor={...}end
 function methods:SetTexCoord(...)self.texCoords={...}end
 function methods:SetRotation(v)self.rotation=v end
 function methods:GetFrameLevel()return self.frameLevel or 0 end
+function methods:GetVerticalScroll()return self.verticalScroll or 0 end
+function methods:SetVerticalScroll(v)self.verticalScroll=v end
+function methods:GetVerticalScrollRange()return 0 end
+function methods:IsOwned(owner)return self.owner~=nil and self.owner==owner end
 function methods:AddMessage(text)self.messages[#self.messages+1]=text end
 function methods:AddLine(text)self.messages[#self.messages+1]=text end
 function methods:Clear()self.messages={}end

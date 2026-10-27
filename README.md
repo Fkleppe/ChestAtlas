@@ -1,4 +1,4 @@
-# Chest Atlas 0.6.0
+# Chest Atlas 0.6.1
 
 ## Install on another PC
 

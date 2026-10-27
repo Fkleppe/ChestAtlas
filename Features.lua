@@ -1,6 +1,5 @@
 local _,A=...
 A.iconPath="Interface\\WorldMap\\TreasureChest_64"
-A.sparklePath="Interface\\AddOns\\ChestAtlas\\Media\\Sparkle.tga"
 A.iconAtlas="VignetteLoot"
 A.arrowPath="Interface\\AddOns\\ChestAtlas\\Media\\Arrow.tga"
 local defaults={showPins=true,minimap=true,focus=false,keepPlayer=true,labels=false,cluster=false,iconSize=26,sort="distance",category="both",lootSort="valueDesc",autoJournal=true}
@@ -46,14 +45,16 @@ function A.Observation(n)
   end
   return latest
 end
+-- One colour for every state: looting or seeing a chest never recolours it.
+local statusColour={0.64,0.72,0.80}
 function A.LocationStatus(n)
   local own=A.Observation(n)
   if own and own.lastLooted then
-    return "looted","Looted by you • "..A.Ago(A.Now()-own.lastLooted).." ago",{0.93,0.72,0.38}
+    return "looted","Looted by you • "..A.Ago(A.Now()-own.lastLooted).." ago",statusColour
   elseif own then
-    return "seen","Seen by you • availability unknown",{0.39,0.85,0.69}
+    return "seen","Seen by you • availability unknown",statusColour
   end
-  return "reference","Historical location • not observed by you",{0.64,0.72,0.80}
+  return "reference","Historical location • not observed by you",statusColour
 end
 function A.LocationStatusText(n)local _,text=A.LocationStatus(n);return text end
 function A.DistanceText(n,mapID)
@@ -65,8 +66,10 @@ function A.DistanceText(n,mapID)
   if type(w)~="number" or type(h)~="number" or w<=0 or h<=0 then return "Distance unavailable" end
   return string.format("%.0f m • straight line",math.sqrt(((n.x-x)*w)^2+((n.y-y)*h)^2)*0.9144)
 end
+local atlasKnown
 function A.ApplyChestIcon(texture)
-  if C_Texture and A.Safe(C_Texture.GetAtlasInfo,A.iconAtlas) then
+  if atlasKnown==nil and C_Texture then atlasKnown=A.Safe(C_Texture.GetAtlasInfo,A.iconAtlas) and true or false end
+  if atlasKnown then
     texture:SetAtlas(A.iconAtlas,false)
   else
     local ok=texture:SetTexture(A.iconPath)
@@ -135,13 +138,21 @@ function A.SortNodes(nodes,mapID)
       local da,db=(a.x-x)^2+(a.y-y)^2,(b.x-x)^2+(b.y-y)^2
       if da~=db then return da<db end
     end
-    if a.typeID~=b.typeID then return A.TypeName(a.typeID)<A.TypeName(b.typeID) end
+    if a.typeID~=b.typeID then
+      local na,nb=A.TypeName(a.typeID),A.TypeName(b.typeID)
+      if na~=nb then return na<nb end
+      return a.typeID<b.typeID
+    end
     return a.id<b.id
   end)
 end
 -- Group only on screen: exact coordinates, loot variants and journal nodes stay intact.
 function A.GroupNodes(nodes,width,height,radius)
   local groups={}
+  if not radius or radius<=0 then
+    for i,n in ipairs(nodes) do groups[i]={x=n.x,y=n.y,nodes={n},own=false or n.own} end
+    return groups
+  end
   for _,n in ipairs(nodes) do
     local group
     for _,g in ipairs(groups) do

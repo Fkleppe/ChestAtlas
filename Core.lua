@@ -1,6 +1,6 @@
 local _, A = ...
 _G.ChestAtlas = A
-A.version = "0.6.0"
+A.version = "0.6.1"
 A.filters = { source = "all", typeID = 0, minLevel = 1, maxLevel = 60, areaID = 0 }
 
 local function finite(n)
@@ -119,12 +119,15 @@ function A.NodesForMap(mapID, name,ignoreAreaFilter)
   for _, n in pairs(A.journal.nodes) do
     if n.mapID == mapID and A.Passes(n, area,ignoreAreaFilter) then result[#result+1] = n end
   end
-  table.sort(result, function(a,b)
-    if not not a.own ~= not not b.own then return not not a.own end
-    if a.typeID ~= b.typeID then return a.typeID < b.typeID end
-    return a.id < b.id
-  end)
-  if A.SortNodes then A.SortNodes(result,mapID) end
+  -- SortNodes (Features.lua) decides the final order; this one is only the fallback.
+  if A.SortNodes then A.SortNodes(result,mapID)
+  else
+    table.sort(result, function(a,b)
+      if not not a.own ~= not not b.own then return not not a.own end
+      if a.typeID ~= b.typeID then return a.typeID < b.typeID end
+      return a.id < b.id
+    end)
+  end
   return result, area
 end
 function A.TypeName(typeID)
