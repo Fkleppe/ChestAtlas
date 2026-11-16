@@ -2,7 +2,7 @@
 ## Title: Chest Atlas
 ## Notes: Chest locations, historical loot and chest field journal for Forever. Rares via RareScanner.
 ## Author: Chest Atlas
-## Version: 0.6.2
+## Version: 0.6.3
 ## Dependencies: Blizzard_WorldMap
 ## OptionalDeps: RareScanner
 ## SavedVariables: ChestAtlasDB
@@ -13,6 +13,7 @@ ClassicLootData.lua
 ClassicSpawnLoot.lua
 InstanceData.lua
 MapProjection.lua
+ZoneCorrections.lua
 Core.lua
 Features.lua
 Loot.lua

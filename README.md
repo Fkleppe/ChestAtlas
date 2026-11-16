@@ -1,4 +1,30 @@
-# Chest Atlas 0.6.2
+# Chest Atlas 0.6.3
+
+## Chests on the map of their own zone (0.6.3)
+
+Zone map rectangles overlap. The reference data holds each database spawn under one zone, and the
+addon shows a point only on the map of that zone. A check against the Forever terrain (area ID of
+the terrain chunk of each spawn, build 1.60.1.70938) found 8 of 1 685 chest and lockbox places
+under another zone than the zone where the chest is.
+
+`ZoneCorrections.lua` adds three of them to their own zone. The neighbour point stays.
+
+- Blasted Lands 72.7, 17.8 and 73.3, 17.4 (Solid Chest). Before: only on the Swamp of Sorrows map.
+- Hillsbrad Foothills 73.0, 80.3 (Alliance Chest, Dun Garok). Before: only on the Arathi Highlands map.
+
+Five places stay as they are:
+
+- Two Solid Chests at The Shaper's Terrace are north of the top edge of the Un'Goro Crater map.
+  They are on the Thousand Needles map.
+- Three Battered Chests west in Mulgore are in terrain that Forever made into Bristleback Retreat
+  (new zone Shen'dralas). They are on the Mulgore map. The addon has no data for the new zones.
+
+Tests: `luajit tests/test_zone_corrections.lua` and `python tests/test_map_projection_runtime.py`
+(the second needs `lupa`; it loads the addon in the `.toc` order with the game mock).
+
+The zone check covers the categories treasure and lockpicking. It does not cover quest objects,
+supplies and collectibles.
+
 
 ## Map positions for changed Forever zones (0.6.2)
 
@@ -15,9 +41,12 @@ Classic fraction stays in `classicX` and `classicY`. The other zones have equal 
 - Three chests looted in Eastern Plaguelands on that build agree with the new positions
   (Eastwall Tower, Darrowshire, Crown Guard Tower).
 - Test: `luajit tests/test_map_projection.lua` from the addon folder.
-- A reverse check of 8 406 Classic chest and container places (CMaNGOS with spawn groups, and
-  VMaNGOS) found an addon point with the same name within 20 yards of each place. For chests and
-  lockboxes the distance is 10 yards or less.
+- The RestedXP guides for Forever hold 2 191 pairs of a Classic map fraction and a world position.
+  The Classic edges in `MapProjection.lua` give the same world position for each pair.
+- A reverse check of every Classic spawn row of the known container names (three database copies:
+  the CMaNGOS dump with spawn groups, the pinned CMaNGOS SQLite file, and VMaNGOS) found an addon
+  point with the same name and category within 20 yards of each row, at the place where the addon
+  draws the point on the Forever map. For treasure chests the distance is 10 yards or less.
 
 
 ## Install on another PC
