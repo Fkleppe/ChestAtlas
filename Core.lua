@@ -1,6 +1,6 @@
 local _, A = ...
 _G.ChestAtlas = A
-A.version = "0.6.1"
+A.version = "0.6.2"
 A.filters = { source = "all", typeID = 0, minLevel = 1, maxLevel = 60, areaID = 0 }
 
 local function finite(n)

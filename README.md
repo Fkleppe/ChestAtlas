@@ -1,4 +1,24 @@
-# Chest Atlas 0.6.1
+# Chest Atlas 0.6.2
+
+## Map positions for changed Forever zones (0.6.2)
+
+The reference data stores each point as a fraction of the Classic 1.12 zone map. Forever build
+1.60.1.70938 has other map edges in five zones: Eastern Plaguelands, Mulgore, Redridge Mountains,
+Silithus and Stormwind City. Before 0.6.2 the addon drew the Classic fraction on the Forever map.
+1 006 pins in these zones, 239 of them chests, were 50 to 612 yards from the correct place. Four
+Silithus points were up to 1 018 yards away.
+
+`MapProjection.lua` now moves the points of these five zones to Forever fractions at load. The
+Classic fraction stays in `classicX` and `classicY`. The other zones have equal edges and do not change.
+
+- The edges are fixed values for build 1.60.1.70938. A later build with other edges needs new values.
+- Three chests looted in Eastern Plaguelands on that build agree with the new positions
+  (Eastwall Tower, Darrowshire, Crown Guard Tower).
+- Test: `luajit tests/test_map_projection.lua` from the addon folder.
+- A reverse check of 8 406 Classic chest and container places (CMaNGOS with spawn groups, and
+  VMaNGOS) found an addon point with the same name within 20 yards of each place. For chests and
+  lockboxes the distance is 10 yards or less.
+
 
 ## Install on another PC
 
